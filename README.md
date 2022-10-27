@@ -1,6 +1,6 @@
 # Install on Windows:
 
-Install Anaconda
+Install Anaconda, then inside anaconda prompt use following commands to install dlib and face_recognition with dependencies.
 
 conda install -c conda-forge dlib
 
