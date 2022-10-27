@@ -1,8 +1,11 @@
 # Install on Windows:
 
 Install Anaconda
+
 conda install -c conda-forge dlib
+
 conda install -c conda-forge face_recognition
+
 
 use test.py with anaconda prompt:
 
