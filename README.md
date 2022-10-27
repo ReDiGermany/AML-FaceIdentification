@@ -1,4 +1,4 @@
-# Install Windows:
+# Install on Windows:
 
 Install Anaconda
 conda install -c conda-forge dlib
@@ -8,7 +8,9 @@ use test.py with anaconda prompt:
 
 Navigate to folder in anaconda prompt:
 
+
 python test.py --init
+
 python test.py --help
 
 
