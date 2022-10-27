@@ -70,7 +70,6 @@ def find_image_from_source(url,data = read_all_encodings()):
     try:
         encoding = face_recognition.face_encodings(image)[0]
         results = face_recognition.compare_faces(data[0], encoding)
-        print(results)
         for (idx,item) in enumerate(results):
             if(item):
                 return data[1][idx]
