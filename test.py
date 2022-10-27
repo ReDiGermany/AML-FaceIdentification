@@ -6,17 +6,14 @@ import glob, os
 import pathlib
 
 con = sl.connect('my-test.db')
-
-def create_db():
-    with con:
-        con.execute("""
-            CREATE TABLE USER (
-                id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                name TEXT,
-                landmarks TEXT
-            );
-        """)
-    print("Databsae Created.")
+with con:
+	con.execute("""
+		CREATE TABLE IF NOT EXISTS USER (
+			id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+			name TEXT,
+			landmarks TEXT
+		);
+	""")
 
 def insert_data(id,name,landmarks):
     sql = 'INSERT INTO USER (id, name, landmarks) values(?, ?, ?)'
@@ -120,7 +117,6 @@ def read_dir_and_compare():
 @click.option('--find', prompt=False, help='Finds a user by its face. (param url to image)',type=str,required=False)
 @click.option('--insert', prompt=False, help='Inserts a new face into the database. (param url to image - name needed)',type=str,required=False)
 @click.option('--name', prompt=False, help='Sets the name for the inserted person',type=str,required=False)
-@click.option('--init', prompt=False, help='Creates a fresh database',type=bool,required=False,is_flag=True)
 @click.option('--load', prompt=False, help='temp',type=bool,required=False,is_flag=True)
 @click.option('--clear', prompt=False, help='Clears the database',type=bool,required=False,is_flag=True)
 @click.option('--compare', prompt=False, help='Compares batch entries',type=bool,required=False,is_flag=True)
@@ -128,24 +124,21 @@ def hello(all,find,insert,name,init,load,clear,compare):
     if(compare):
         print("Comparing...")
         read_dir_and_compare()
-    if(load):
+    elif(load):
         print("Loading...")
         read_dir()
-    if(clear):
+    elif(clear):
         print("Deleting all Records")
         delete_all()
-    if(all):
+    elif(all):
         print("Getting all Records")
         read_all()
-    if(find):
+    elif(find):
         print("Finding Image by "+find)
         print(find_image_from_source(find))
-    if(insert and name):
+    elif(insert and name):
         print("Inserting "+name)
         save_image(len(get_all())+2,insert,name)
-    if(init):
-        print("Initialization")
-        create_db()
 
 if __name__ == '__main__':
     hello()

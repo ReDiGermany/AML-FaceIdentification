@@ -10,8 +10,6 @@ clone github repo to disk or w/e
 
 Navigate to folder in anaconda prompt:
 
-python test.py --init
-
 python test.py --help
 
 # Main Source
