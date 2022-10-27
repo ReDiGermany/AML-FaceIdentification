@@ -6,7 +6,7 @@ conda install -c conda-forge dlib
 
 conda install -c conda-forge face_recognition
 
-use test.py with anaconda prompt:
+clone github repo to disk or w/e
 
 Navigate to folder in anaconda prompt:
 
