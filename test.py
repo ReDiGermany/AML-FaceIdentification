@@ -120,7 +120,7 @@ def read_dir_and_compare():
 @click.option('--load', prompt=False, help='temp',type=bool,required=False,is_flag=True)
 @click.option('--clear', prompt=False, help='Clears the database',type=bool,required=False,is_flag=True)
 @click.option('--compare', prompt=False, help='Compares batch entries',type=bool,required=False,is_flag=True)
-def hello(all,find,insert,name,init,load,clear,compare):
+def hello(all,find,insert,name,load,clear,compare):
     if(compare):
         print("Comparing...")
         read_dir_and_compare()
