@@ -100,15 +100,20 @@ def read_dir():
 
 def read_dir_and_compare():
     data = read_all_encodings()
+    errors = 0
+    total = 0
     # print(data)
     for dir in os.listdir('images'):
         for subdir in os.listdir('images/'+dir):
             path = "images/"+dir+"/"+subdir
             ret = find_image_from_source(path,data)
+            total = total + 1
             if ret != dir:
                 print("[ERROR] "+path+" (should) does not match to (is) "+ret)
+                errors = errors + 1
             else:
                 print("[OK] "+path+" matched "+ret)
+    print("Finished with "+str(errors)+" errors out of "+str(total)+" entries ("+str(total/errors)+"%).")
 
 
 @click.command()
