@@ -117,13 +117,13 @@ def read_dir_and_compare():
 
 
 @click.command()
-@click.option('--all', default=False, prompt=False,is_flag=True, help='Determines if i should print all known faces.',type=bool,required=False)
-@click.option('--find', prompt=False, help='Finds a user by its face. (param url to image)',type=str,required=False)
-@click.option('--insert', prompt=False, help='Inserts a new face into the database. (param url to image - name needed)',type=str,required=False)
-@click.option('--name', prompt=False, help='Sets the name for the inserted person',type=str,required=False)
-@click.option('--load', prompt=False, help='temp',type=bool,required=False,is_flag=True)
-@click.option('--clear', prompt=False, help='Clears the database',type=bool,required=False,is_flag=True)
-@click.option('--compare', prompt=False, help='Compares batch entries',type=bool,required=False,is_flag=True)
+@click.option('--all',      help='Determines if i should print all known faces.',                             type=bool,  prompt=False, required=False,is_flag=True)
+@click.option('--find',     help='Finds a user by its face. (param url to image)',                            type=str,   prompt=False, required=False)
+@click.option('--insert',   help='Inserts a new face into the database. (param url to image - name needed)',  type=str,   prompt=False, required=False)
+@click.option('--name',     help='Sets the name for the inserted person',                                     type=str,   prompt=False, required=False)
+@click.option('--load',     help='temp',                                                                      type=bool,  prompt=False, required=False,is_flag=True)
+@click.option('--clear',    help='Clears the database',                                                       type=bool,  prompt=False, required=False,is_flag=True)
+@click.option('--compare',  help='Compares batch entries',                                                    type=bool,  prompt=False, required=False,is_flag=True)
 def hello(all,find,insert,name,load,clear,compare):
     if(compare):
         print("Comparing...")
