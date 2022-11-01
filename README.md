@@ -13,10 +13,10 @@ Navigate to folder in anaconda prompt:
 python test.py --help
 
 # Install on Ubuntu
- ##First install required build tools for dlib project:
+ ## First install required build tools for dlib project:
  sudo apt-get install build-essential cmake pkg-config libx11-dev libatlas-base-dev libgtk-3-dev libboost-python-dev
  
- ##Then install python3 + dependencies
+ ## Then install python3 + dependencies
 sudo apt-get install python-dev python-pip python3-dev python3-pip
 sudo -H pip3 install -U pip numpy
  
