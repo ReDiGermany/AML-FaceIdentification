@@ -31,26 +31,42 @@ source ~/.bashrc
 
 ## Compile dlib from source (first navigate to working dir)
 wget http://dlib.net/files/dlib-19.9.tar.bz2
+
 tar xvf dlib-19.9.tar.bz2
+
 cd dlib-19.9/
+
 mkdir build
+
 cd build
+
 sudo cmake ..
+
 sudo cmake --build . --config Release
+
 sudo make install
+
 sudo ldconfig
+
 cd ..
+
 sudo pkg-config --libs --cflags dlib-1
 
 ## Install dlib for virtualenvironment to work on it
+
 mkvirtualenv aml-py3 -p python3 //name your virtualenv as you like
+
 workon aml-py3
+
 pip install numpy scipy matplotlib scikit-image scikit-learn ipython
+
 pip install dlib
+
 cd dlib-19.9
+
 python setup.py install
 
-// Fo quit virtualenv just issue deactivate. For more information see man pages
+// To quit virtualenv just issue deactivate. For more information see man pages
 
 
 ## Install face_recognition neuronal network
