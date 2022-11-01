@@ -12,9 +12,58 @@ Navigate to folder in anaconda prompt:
 
 python test.py --help
 
+# Install on Ubuntu
+ ##First install required build tools for dlib project:
+ sudo apt-get install build-essential cmake pkg-config libx11-dev libatlas-base-dev libgtk-3-dev libboost-python-dev
+ 
+ ##Then install python3 + dependencies
+sudo apt-get install python-dev python-pip python3-dev python3-pip
+sudo -H pip3 install -U pip numpy
+ 
+## Install virtualenv + virtualenvwrapper to avoid package conflicts
+sudo pip3 install virtualenv virtualenvwrapper
+
+## Add virtualenvwrapper to .bashrc to use virtualenv features as workon and mkvirtualenv + update .bashrc
+
+//note that if you are on ZSH that you have to update either .zshrc or .profile
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+source ~/.bashrc
+
+## Compile dlib from source (first navigate to working dir)
+wget http://dlib.net/files/dlib-19.9.tar.bz2
+tar xvf dlib-19.9.tar.bz2
+cd dlib-19.9/
+mkdir build
+cd build
+sudo cmake ..
+sudo cmake --build . --config Release
+sudo make install
+sudo ldconfig
+cd ..
+sudo pkg-config --libs --cflags dlib-1
+
+## Install dlib for virtualenvironment to work on it
+mkvirtualenv aml-py3 -p python3 //name your virtualenv as you like
+workon aml-py3
+pip install numpy scipy matplotlib scikit-image scikit-learn ipython
+pip install dlib
+cd dlib-19.9
+python setup.py install
+
+// Fo quit virtualenv just issue deactivate. For more information see man pages
+
+
+## Install face_recognition neuronal network
+pip3 install face_recognition
+
+## More working details with face_recognition project and usage in ubuntu
+Visit the following
+https://kumarvinay.com/face-recognition-with-dlib-on-ubuntu-18-04/
+
 # Main Source
 
 This repository uses large portions of [@ageitgey/face_recognition/](https://github.com/ageitgey/face_recognition/)
+
 
 # Face Recognition
 
