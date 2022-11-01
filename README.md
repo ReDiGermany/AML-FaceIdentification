@@ -18,6 +18,7 @@ python test.py --help
  
  ## Then install python3 + dependencies
 sudo apt-get install python-dev python-pip python3-dev python3-pip
+
 sudo -H pip3 install -U pip numpy
  
 ## Install virtualenv + virtualenvwrapper to avoid package conflicts
@@ -26,7 +27,9 @@ sudo pip3 install virtualenv virtualenvwrapper
 ## Add virtualenvwrapper to .bashrc to use virtualenv features as workon and mkvirtualenv + update .bashrc
 
 //note that if you are on ZSH that you have to update either .zshrc or .profile
+
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+
 source ~/.bashrc
 
 ## Compile dlib from source (first navigate to working dir)
@@ -54,7 +57,7 @@ sudo pkg-config --libs --cflags dlib-1
 
 ## Install dlib for virtualenvironment to work on it
 
-mkvirtualenv aml-py3 -p python3 //name your virtualenv as you like
+mkvirtualenv aml-py3 -p python3              //name your virtualenv as you like
 
 workon aml-py3
 
