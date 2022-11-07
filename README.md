@@ -43,17 +43,17 @@ mkdir build
 
 cd build
 
-sudo cmake ..
+cmake ..
 
-sudo cmake --build . --config Release
+cmake --build . --config Release
 
-sudo make install
+make install
 
-sudo ldconfig
+ldconfig
 
 cd ..
 
-sudo pkg-config --libs --cflags dlib-1
+pkg-config --libs --cflags dlib-1
 
 ## Install dlib for virtualenvironment to work on it
 
