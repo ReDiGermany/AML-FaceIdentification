@@ -1,0 +1,4474 @@
+[
+  {
+    "path": "test/cropped00519b4d-da67-42e5-b1af-a854b0b122eb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped005c0c23-dcd2-47b6-b283-84ebba1f8bef.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped00821dce-6bf9-4344-a150-1dda297b661b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped00a16d81-ba92-4733-b2d0-bd82d2110dae.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0150eca4-3067-4512-b06f-ce14a15b771c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped01cd4853-32c0-47d5-907e-52154f461e7b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0240e425-7963-4a7d-89b7-37124421c377.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped024ada5d-f908-4a60-a8a6-d9a245b5ca5a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0271a241-e30c-4bdc-b69f-8331bc85e030.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped02741a1d-3392-46ab-b2fc-faf9b66285f0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped02af1031-158a-4c83-b72d-0ffdc27bb3ef.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped02caa073-d26b-4e58-a5c1-7f36605dc376.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped02fd5b0f-c57c-4057-b81d-cc27aec8f1b5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped03543030-42ef-46ca-a034-2c486988ee35.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped03911de5-c181-44fa-97ac-f9532c63a5a4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped03e7abd9-1df7-4d8a-a8c7-95d2c4ccd1ec.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped040b7026-a254-4530-ad1c-52b9efc9cff6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped043e265d-9e39-4641-ac3c-6e8d655c4ad4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped047cdb19-f804-4d16-aa35-c16a944d785f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0497ba1e-5d85-4851-af82-dae699b8ab8d.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped04aefa58-d0dd-471a-8e17-5b63e409c361.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped04c3a18b-73b5-4162-aca5-85b8365ea074.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped04e5cf23-0048-4346-9e92-104bb843dfac.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped052c315d-91dc-455b-97cc-5d5423c85831.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0553cad0-2c89-4e56-ae2d-f7c05db2e859.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped056efb27-0c90-4721-a3f4-5c0a8f86d323.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped05a71f5b-9fe3-4645-b8e9-70d11d2ff4b6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped05b4181d-11a8-49c1-8c2f-e38e01c40460.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped05c3f974-bbd2-4f8a-8d28-622bf7615946.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0730db2f-4c29-4bf3-a362-58fcf19307a1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped075be2f7-0869-4f8f-aa51-dfc0abb8c1c1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0784762a-72b4-4a4f-9db3-1a675662f937.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped07a3bc7d-e882-4c6f-975e-825451514bff.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0804dbfd-f049-46d1-8c9c-c852c1d9279b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0811319f-1232-4de6-b3b5-0d45ccfbcf36.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped083bf374-d804-4713-8382-c7ebbd479875.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped08c5e0b8-9686-406e-9139-03721e5b150a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped08dae961-331c-43ce-a91e-768b3316e90a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped08de273f-0aed-4a34-96b8-8efe5cd83322.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0929b48d-0567-48da-9c0e-47ef61c5d5c3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped09c281c7-d2ca-4121-8109-378787321591.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0a15df2e-1844-4115-834a-1345f263d4a1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0a581df8-9a82-4511-8abb-fd1fec7f7552.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0a8f3baf-a8eb-40ab-900d-6c2be6282871.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0a9927c6-b3b7-4d0b-a73d-8a65805ef131.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0ae55b6c-aa8f-42f1-b004-b346d88a6dfb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0b1259da-26ca-4297-aa9a-545dea72be41.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0b1a9fad-68f0-473f-9fb3-92abe2803f03.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0b596f78-e309-41b1-b61d-10a64c4b1cef.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0b72ea74-28c9-4011-b4ba-a4b39133a33b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0be52d94-6bb2-4246-aaad-098db0fa0e63.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0c586ba0-5534-4597-bdfa-cc96bdcf52b9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0d428375-9b75-4a11-842b-aabfbd4be56c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0d75c88a-c1e2-4ac6-bee4-99717734c18d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0dab4b12-5dd3-40f2-ab4a-ed62eb89cdf2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0dce5122-e169-4064-bd65-0444d62284c9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0dd2cbf9-3872-4856-bd96-fc9a5289b911.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0e4dda3c-f563-4ae6-bff3-211f9ba5ca58.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0e596f2b-41b7-4973-8d6a-626e219a79cb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0eb94c4e-f7e0-4808-8615-8cf25194a507.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped0eecf5d0-3d59-4b8f-85d7-e3955f94f746.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0f2d85fb-167c-479c-9818-934787388d67.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0f549997-6ab6-4723-a475-3ad537ccb39a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0f59b577-33ce-4322-8e56-f665407c159a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0f643248-c6d1-4a9d-8745-1ac942e11fd2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0f986026-c503-49a2-992f-dbdc60c42b9a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped0feb90b6-d9e5-4bb6-ad24-b1e4107bb0b6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped10d14bff-dfae-4d25-8ebc-6c910ab2aaee.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1127c3e3-61a2-4e9c-a7de-c33295bb0f9e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1199ab62-ff46-46d6-8370-d2eec823384c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped11d3949c-149b-4b80-88f2-361d7e619aed.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped11d60a41-b296-4802-bf5d-1e5e841489e4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped11fb2304-31ab-4cd3-84ac-9b1b01c33a61.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped121471d3-cf5d-4d91-9499-10e1a5d660d7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped125754a6-080d-49c4-ba57-6b7fd6abe9c3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped125e8de1-2c72-4a77-a089-2d8cb9e076ac.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1272c1fc-8fac-494c-8b4a-e103635e13d5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped127a7949-4f53-4cc9-9edc-721d2ac81564.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped128ea0fa-ea95-4bdd-9dbe-4c8704775a13.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped129cecbe-f514-4538-9d73-a9c039ce1e46.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped12e5a44a-dca3-48fa-8fe2-2d09bd96010b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped12f877f1-1661-4d37-8ab7-94eba64b3477.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped136fbb36-93b3-45d6-b4de-b30902076788.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped13b21376-4738-49dc-8910-91fc8617a232.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped13d3b6cd-b63d-4fb4-a790-7f3c014bee6d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped13ed0013-a768-470e-a6b0-e4ecce939ab5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1429dc0b-eab1-4ab8-8f7c-b93c8fdbb9e3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped143b16f3-1985-42b7-adda-1b5fa2e402ef.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped145e5459-b8ae-4d98-819a-623997e39135.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1462aee0-d95f-4163-a833-7847ea63703f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1557ae5f-7a6d-420d-86fb-57d4ab680aae.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped15cf1f79-de82-485d-a499-86e5694744a1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped16190e4b-2a07-4e93-8846-068b3c7d9d6e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped161cb0c4-c646-40da-b263-098ea4aeda9d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1645e5ef-dd53-421e-a288-3b8cb573bcc5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped16fb0ab5-50c4-47e0-90ca-61c4dac51c4a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1748e153-7edb-4cd3-ae4d-b30283e64151.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1750a852-2307-4618-9d42-208a9312f644.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped17d29cfd-6909-4b64-8e30-e4a3d56d436f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1875f76d-dc32-436d-8768-9653687bdc4c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1880a569-4f91-413c-aada-c4a6ca9f7147.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped18d3f15e-6b1e-499c-a64e-cc2766b0b7bc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1936c715-2dab-498e-98c0-1185e744e407.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped193ac5f8-251f-476a-867e-5acb48827520.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped1946a1d5-14fa-43f7-8019-16c546b258b0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped197a99e4-27f4-4605-8549-8427bf2ba66d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped19aa478c-941e-403d-bfe7-4802b9efc131.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1aa1b0cf-41cb-459c-aa16-bd7092756f77.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1b30a7b2-5f4c-4929-a06b-5d7bb5b0653f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1ca4eef2-7fa7-464e-90c6-be858667259e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1caede4e-39c4-4432-8d38-0dd5e0e14c03.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1ce2c794-58be-4fd9-83bb-daf27d3b17f2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1d734233-022c-4c06-bd48-9054e09a792d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1d76d34f-99e9-4fd3-8aa8-f82cb0bf60f2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1d7e5a24-90a8-4737-80f1-fcd2b2caa944.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1db4e93e-0af1-4450-8849-2fd0c6f356ac.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1de82e18-94c2-461d-a838-d1f7e9edfbda.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1e14cc73-69cd-4f48-9f35-4c6375819ab2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1ecaef8e-fc79-4b79-bdf0-d00003b64414.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped1f36519f-fd22-4f4f-91b2-a1d7c17ac382.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped1f5c079f-9147-4009-9e9f-d519a4643d85.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped203a82f6-429d-4d18-893f-2d82100ef9ec.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped204acd7e-f73d-4d59-bbe7-c60eb2c7fd00.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped20642aa9-82c5-4915-b721-819fcc3f254f.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped206dd793-f97d-43ca-8f24-c40310253bcb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped209c5f2f-462b-4ebb-b0fa-670db2a66ee4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped20ec4a0c-0e7a-4dfc-8823-3474db2fd328.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped21014dd0-180b-44c3-b2f5-bbba7ecbdf40.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2116da0d-c861-4fdb-a3f9-47b1eb186b5c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped21261f54-0956-4571-a344-051671d50c25.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped213e6a1f-d92c-403a-b401-6265facc6f16.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped215eb490-763f-49a0-a45d-65214de2e444.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped216075a5-4a14-41ae-ad6e-03f82c878a87.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped21850356-f800-4147-a805-1432c5c360b1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped21a9d157-7605-4908-bcbb-7fede292d7e5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped21afee4c-2787-4a33-a189-cd0f66a0289f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped21d84e8b-e8cd-4e6f-bfa8-82f8800acae6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped228edec6-7104-40f4-960d-1f825991d841.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped229a45aa-2a35-4173-ae06-8b68c2fee3b7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped23c76d33-fcfe-4d03-8ac7-7eb774e1ac37.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped23c7a89f-3220-4ccd-9f07-405e2ae140f0.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped23dc1ecb-24f6-46e8-ac30-28abad159bdf.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped23fc9f16-9366-49f4-aa6e-4f963c6c810d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped240ef479-3cff-4e7f-9567-06730f7a398b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped241c9f15-0104-44e1-be61-d2c46a818245.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2499a2a3-3802-4c38-822a-3be00d24885c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped24b7015a-9455-4659-b7ed-238a4a123888.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped24c3542d-681e-4831-bc90-07e2648817ef.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2533d164-b632-40e2-98fa-34e6cd6d1910.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped255ee7b0-db34-47e9-9dbb-8c4a2aef8252.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped25911006-88b3-4fd6-8a96-9e520f32b4ca.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped25ad03ae-5336-479e-a7b1-72ce7d484b48.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped25c239cf-60dd-460a-83ef-0b42b249f63c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped25f1c918-4bd1-41f6-8f75-7ee2d5f5914c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2681508e-cce7-4cf0-8b2e-52c64f186546.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped26a4cc86-e8c5-419c-a140-c499bb639e9b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped27043e11-5595-469e-9f84-08fdf850d3f7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped272cc251-3fa0-4ea6-a2e9-2d33bc352c86.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped2754acdf-0eec-4a94-a12e-4cc71a23e976.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped275d966d-b60d-41e1-a17b-53a89349071e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2784ddf1-c6d1-43c0-bc32-d3da14ae3496.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped278ec18b-5e30-497b-82ce-db119b9e7196.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped27de7bf9-cca8-4dfb-bcfb-2e33a9a2ab25.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped27e19913-f201-498d-9011-6afa707b0bd1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped27ef3b34-e919-4040-9640-3245a7aad69b.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped28121c2b-5211-4e4f-8d41-66242d7240a6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2818c30d-97de-4700-b86a-8833b8572977.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped281a1839-b12f-49d1-a199-4616e68fe185.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped29096866-2021-409f-a3a7-391a0a15e24c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2a5f03dc-2a06-4456-a410-7aa549fcf87e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2a9f94b2-b09a-4ed5-a40d-64fdcd811b00.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2ad78c82-6d3d-45a5-b5d9-76ea27da4833.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2ade5696-e3a9-463b-ace5-785d4a1182b3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2b0207e4-d48e-42d9-a9b8-9cff90fcf795.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2b317d7e-39aa-4f98-9180-91a3c01e09a8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2b5a018e-0481-42e7-80ed-b8f94e33d134.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2bd5d177-bd44-4ad0-b465-c4e498aa9e98.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2c147cbb-0d99-448d-b210-5c35eb0e6a7a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2c8b6f9c-bb1c-415d-a933-59759f9572bc.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped2cba7865-e7d2-4588-924f-761bd9d3b8a2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2cbcaf4d-c437-4f91-ba90-835db28e4b0a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2ce72322-0971-481a-98d3-c5a46c7ec2ea.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2cef678b-5b3f-4416-881d-20ff10ccaebd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2d49497f-5c14-4fd7-80c8-eddb9b4e4877.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2d67d83c-f018-4fed-866e-0c0f89c1e293.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2d7922dc-1cc1-4ecb-ac5b-fd4c17fa6f93.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2dc57810-c7fe-4705-a159-f3a1ee9b9eca.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2dc69feb-ea55-4e14-b3e1-ef39da2199a7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2e8f526e-2732-4cf1-9be9-7d062fd95735.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2ed1c8ab-9d8b-4a1e-89ad-d681b3c0bb62.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2f2029af-e166-4fb9-a3d2-bceab99bf9b4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2f275ffe-2a7a-4d1b-a522-0f35aaa1e578.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2f50b7f5-ee14-4e94-b09e-fb23e51253f7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2f91f425-7e1f-4a33-8b50-4afa656bb856.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped2fc5d5b7-1e02-4958-b4c0-263e7beafd63.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped302096ef-3436-465f-9e86-7981a5c1f73c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped302c34a1-1610-421e-a81e-3e2d620f3345.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped302d8263-70ab-4cfe-a2b6-fd80f833abb1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3044a3ad-c010-4f42-ac5f-e601ccda64b1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped30640f30-3e14-4cb1-830c-036c3b4e0db6.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped30f0435f-8b71-4b30-a0d8-e1bdeee8b1cb.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped31280cfc-a891-43b7-b415-165cc628aded.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped31b5b327-52ec-4570-bfb8-9737d1298604.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped32028b17-1083-4632-8a4a-a9aa2d87f9bc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3236e676-443c-4332-be59-07367c337ba6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped32b5eb29-078f-4846-914c-d7ae6a4ec60f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped32ee311f-aba6-4cdb-a7a4-71ef9aa3a9d0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped32fbdf64-c679-4d8c-86f5-fd5ea0c9006a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3309bc18-bbb5-47ed-ac4e-d3e458b64205.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped33268f71-8fd3-4cde-8a53-745eb59e6ee0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3348f714-69c3-48dc-94a8-3c7905fb7ef5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped33560882-3bf0-41d6-8f41-9219b00d1fc4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped33ee4f34-4630-48bb-a8b7-8a5df425d5ad.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped343759b4-2191-4328-869a-c71243868bf5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped345abfc3-691e-4ed8-b62e-6cccfe041b91.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped345ffc91-21c0-44c1-a0fa-51f684b1cb19.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped34645a3f-7bdd-488c-8869-c559bce0adb3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped34700a2c-8d20-43bb-9916-18d99640ca8f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped34853ff4-5fa9-4e48-b655-3639b141e0fb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped34baa4a2-90b8-4498-942b-212c4f153bea.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped34c16ae8-a636-4c8f-9f39-8c60e7ad3482.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped34e59bbe-78c5-448d-9716-5bf574e225e7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped34ed4321-c5ab-4f9f-8c98-058195e8ce7f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped35dacf83-62cc-4bbe-a137-0dfeb63a1c26.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped36474794-aee3-4992-816c-5dbf41cace6a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3654db2d-26a4-47e0-87c1-7653fce91736.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped36e2ee5a-bd0d-49a6-90d0-7e7775da0f22.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped36f77658-1a7b-4677-be56-32ce2450c40b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped370fa75a-4d13-4087-918b-b524b7ce0054.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped372cc33f-ace6-4136-b36e-b333b6b95b0b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3752c127-e499-4ca9-b574-f5d77b07f128.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3786ff84-8ef1-420a-b3d9-3bca0ec4b11e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped378c073e-87ef-47c8-b71e-d8cff44dc0a2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped383a2382-4358-40ba-9337-f9a003ce2bbb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped38cb1ee9-5559-4427-81eb-8eda8e26cd1a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3910d47c-bc13-46ad-890b-32e1727a9fc2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3912edc2-01cd-4424-ab7e-4596f7e1706b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped39a95978-fc79-4080-b543-62ff1dd12d19.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped39d079c0-4bea-44ba-938f-42a9106e5a12.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3a506670-5437-4bb7-aff2-31621a10a6c8.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped3a72d0b1-1bf2-41b6-9fc8-f56541a79d0e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3b5e1f01-747e-41c5-8461-c628f14b12fb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3b9ea277-80d7-4e74-a4d5-b39352d300e1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3ba241f2-0ec6-4e03-b539-758abe12d762.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3c4b2f90-0447-424c-8835-843ee7a63efb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3c70f2d4-e02a-45bf-8e94-d94f4c44d573.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3c858513-5506-4447-859b-b886c17d1fd3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3cb0aa75-3e1e-4f6e-b85c-6ddf871246cd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3cbbb0d1-fcd9-4cce-a5c7-3ef2afc5fc21.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3cfe80fe-4d9e-4a3a-ba45-b578260a89a4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3d98bb3c-d830-4d6e-a967-d8b98979360d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3deb8395-7317-45cb-8986-a43138989213.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3e096554-58ce-43d8-b566-1b9e30b4abc2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3e55f7a6-9bca-4641-b105-7626b10ca2c6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3f979e7c-b1f5-4dc7-90aa-ab3fbbcf7e10.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped3fd43612-1117-4f02-a288-ec728dfdff82.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped405fe138-8dee-48d1-8716-1ff29179bcd0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped40ebef98-79da-4b6b-847c-4df4111f56da.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped412a11f4-6380-45bf-9b89-0f6334123394.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped41e4d676-89a2-499c-a684-467e11ae772c.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped41f7f5bb-8ccc-48ac-bfec-f7457b30db90.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped420ca02f-2378-4e3d-b358-b296206b1217.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped423c2019-e21f-4450-a4f8-273c7f0417a8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4241c0c6-944b-42aa-bbb8-70ba5505dc72.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped42729ebb-5dd5-42f1-9eaf-a75d96879cd6.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped4308e01d-d523-448f-8baa-60257224096f.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped432e4b36-3f5d-4b12-a052-50485100be06.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4399b7e3-0a44-457f-9fef-907de78b599d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped442619a6-5feb-4552-ac26-fd26302ac91a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped445c1cbe-08d8-4188-88c0-b10ef8354f15.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped449d56c1-c947-4587-999e-9081c218980c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped44f7a9bb-d497-4d32-916c-58cc51b0c69e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped457f4d20-a7ad-463a-b611-32364c0d102c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4580f79c-8593-4def-b7ee-de3312e78fec.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped459e0044-d81f-44b9-9660-98d3c9a0b952.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped45b536b0-6943-4ba3-812c-e93ca92f2068.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped45cca425-020e-4e02-abc1-060491aea64c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped45e09441-bdce-471d-8876-de16ddb0d015.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped45f18fb7-7a96-495e-9ddb-c7d3120dceb0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4697ce22-cd91-4de4-b7d9-f23383796ca6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped46c90cdb-b026-4dfc-899a-7101cd4cdda5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4711137b-a403-4eee-afcb-5f73b3d80240.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped47ceb508-f393-4c5f-b88b-dd23bded544f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped47d847a4-908b-4954-9435-fc3c934f063c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped48918f79-30de-4c2f-ae3c-2194446235d5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped48f94d2e-2af7-445a-9dd3-11ff842702c0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped48fb37b1-a2cf-4601-85ab-95a34820697d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped495cddc2-8ea5-458a-98a0-6228af083d20.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped49c93829-e4de-458a-8928-eb275490cb42.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4ad0c367-c304-4c68-98be-fb36e7548d19.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4af16cae-4b06-412f-a674-cd191c2c301f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4b3fb7db-1d13-41a5-bedc-c00b70b274d0.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped4b55332b-42d7-4575-a723-45a250235702.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4b8084d8-9c85-4f68-bfe1-1e396e2d909d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4bc40e02-dc5f-40de-9d0a-f7a371b4e061.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4beac745-eb79-4b6c-8ce2-0a02392bb59c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4c1d18b1-2aa2-4b5f-879c-f86524b5574a.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped4c5f56ee-d1d9-4557-94ad-cee337894bd1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4c863efd-a8cc-467d-8cfe-2965a5b39ebc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4c9169fb-53f8-4ebb-8df0-05d2a1fb659a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4cfaa566-f265-496c-adf1-02feb2785e82.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4d0aeb43-4267-4422-9a71-560293c9911e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4d1984f0-20fa-409c-8c92-40cb387532a0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4da1e224-1136-420b-b745-e3efe2fd4226.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4daa53e1-9dd4-4263-a551-376111719795.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped4e8e370b-b145-4863-bc4b-48040d195039.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4ea98b30-46c4-47d8-8ca5-a6364a48aa77.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4eb802f5-6875-415b-8214-64b4ce5c4cc8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4edbfdf0-b57a-47e3-b4db-55a263d8195b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4f01e128-01e0-42e1-b8ab-a46b85198cdf.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped4f02206e-3817-4cf0-8a78-3a3ce34af10c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped4fd77dd4-b6b5-4e64-ab64-9216a8ba5a39.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5075bc1e-5b01-4a4c-9e82-9db7566e4e2c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped507e1bdf-d401-4539-a8f2-d6854d3420aa.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped508c200b-8c11-4067-9d87-785c2062c2e2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped50ec27a9-bf57-4a78-87e6-8bde14862121.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped50fd4057-0036-4e63-b067-a11e735da043.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5112d642-5f72-4bcd-86fd-1479e81789a3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5128faae-cb9b-4b3c-b063-d0646f483ddd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped513b1e55-70ee-49a1-ba83-d0dbb5c8e725.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped51c18b3c-6af8-4b86-8b21-ab24e21d130a.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped51d722e8-7e40-4890-b01c-8c78d2d61042.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5276c521-bab3-4769-96e1-98bffc69af12.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped527c137b-c5b2-40c0-bac4-4d7c6ccf556a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5286c58b-9bd8-4e36-a7ba-b69eb92f6534.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped52906bd4-01e5-45b1-ab14-71dbc2a25771.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped52c3ab74-2c6f-46a1-a14b-c36f20402430.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped52dd9ec7-bd37-46d0-b6ba-23470cf9eba7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped53168839-f9a9-4c3a-9a7c-87d70dcce576.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped531c1c90-5d3f-482a-aa69-89123f18549d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5498dfa6-8764-4eec-a1fd-b870621ed4da.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped549bccfa-8f00-4276-875a-876dc57deb24.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5508eacb-1cf3-4d67-9e29-7577fdba9e61.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped55244007-332e-453f-94b4-7c41a90f4b9a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped55856a0f-5df2-4dff-81d6-1166531bc5ee.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped55a5dadd-c978-489c-86a0-51e219e88f17.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped55e2cfde-d325-4699-9943-1967a6165a3f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped55e9adcf-10fe-4973-96ea-fd24ee06eaab.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped55eac3d3-284c-492c-a784-aebaeb134d44.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped56127201-4985-4611-ba72-14aaaba509b2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped56353c69-0ead-4422-adc2-b00ebf0e5d59.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped563ebc30-39c5-48eb-8a8f-de2dd9a8211c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5654e071-52a3-4654-8626-08aeb9328300.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped567223b1-970b-4c1d-b003-e4fb93c36181.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5712fcf2-db06-4bab-b9a5-ba32f28c078c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5747bed2-016b-4d9c-9eaa-6f885bf0dbac.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5786a56f-49f0-4742-8d93-6683dff3ed7a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped57916b52-9d7c-4fda-96c0-8be06b9ea412.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5829ad2a-0a43-49ed-8615-0ba45d331ef2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped585e1734-f774-48ef-9536-e00037070711.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped589dced6-1524-4635-b61e-54737ac2a1c7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped58e0f1d3-db45-45fa-ad2b-466410e931ce.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped58f99855-71b7-4444-86b0-1a7668c69356.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped597e59f5-093c-4512-9b86-9ee0b232d654.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped59a9ec09-0e45-4cdf-a402-1accda7a1b1e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped59b170cd-0fd8-4950-b39c-078ef01662d2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped59c68d3c-ec80-4c24-aac5-dc236ab28f7f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5a213d71-66fc-48ee-aeca-13bc780e5b77.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5a3df8ff-fdcc-43f8-943a-24c7028e3e32.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5a8f0e43-2e54-40ba-86c4-d3115fabfa30.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5a9eccb6-db58-4899-b632-c839450264a4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5aa37d8c-8666-45d3-8309-d2b594baa900.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5aba457d-e122-4bc3-95bb-965cd2797b98.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5acd57ad-1cf7-4c3f-9733-6b0d19f8e531.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5aea604f-6e25-4391-b0f8-54d781215774.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5aef106f-7947-467d-bdc0-ff3bdb298173.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5b335204-8ffc-422c-83ea-45bc4524b4ec.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5b461e0f-6fe1-4cbe-ab13-4f3a9784c9a9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5b4fff7e-e568-4497-92d1-7e3ac2dad1db.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5b648a02-1d37-40e0-91d4-a0e1a08dc4a6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5b6bd722-6e0e-47f9-901e-4d46957acddb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5b87094b-76b7-4045-9065-74694e987dc4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5bf336f9-7ebf-4d88-b547-dd023184642a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5c070cff-e774-4f66-a2f3-16bf836d2a4e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5ca3aac6-c614-4ffa-aa47-d69898f51703.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5ca6819b-ba8a-4890-aa49-08d792356b88.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5ca8c0bd-36f6-4fad-ac7a-f49a3d739d67.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5cb1c65d-0130-4dae-83bd-bf7376e6e4df.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5ccfc4e9-d5d0-4c3e-ace1-64e870dcf6e8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5d512eb5-6261-44f5-87a2-3ef1cdab707d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5d96ea96-7485-4f81-ac97-c40476892f4a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5dccb5e3-a67a-44eb-917f-9826a9b918d4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5e1e83e6-c4f0-4fd6-ae61-dc0d1b97671a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5e8bf161-d5e0-4642-87d8-7f2321803188.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5f424e30-feab-4055-90cf-550afb8d4aa8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5f72116e-4386-413c-a135-7cc70d13f5de.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5fbf43da-a5de-4e24-bbbe-305027e066d9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped5fbfd5f0-6e75-4b57-88df-c6fe0f52e48e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6002c27f-f5eb-4808-bafa-f1d35319411f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped60956984-ef65-47ee-a1ab-47b90b3a7b4e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped60ae2e4a-9091-4ac1-bd0d-a2f17a78f67f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped60ef344c-43f4-4f1a-8f17-6586379f6ed2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped615305f3-5dc3-441d-85ef-85da08f259c3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6158726d-8373-4c07-8f18-59292d07c478.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped615af9ec-7f27-407a-8b06-462404e7c6e2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped61754f8c-99a4-4ceb-b537-919ef1de291d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped617a8c68-2080-4a69-987f-33eda99d3090.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped6180260b-46ea-450c-998a-ad817941c93c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped627ac5bc-62fb-460b-90ad-8a005555c9b1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6309cbb4-5611-4ee3-a100-911a9f9e8ebb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6350c7b2-8f78-415e-bd8f-33c22b00d7c4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped635de2bb-b0d6-47d9-bded-38deea4b4a50.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped63d99e62-a637-4df4-abe9-92010f6f5dc2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped63fad7db-4a1d-40d6-b5bc-495e89902123.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6479c062-23ad-4d6d-ab15-9dd257602fd0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6485d542-4826-4c03-a923-60d253037171.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped64ef18cf-589f-4971-88ea-97eb67fa9983.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6566a446-a168-4d5b-a5cc-65187ae589bb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6574c34d-bf7b-4d43-8eb2-f2e3a8dbe699.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped65c2fff3-21e3-42e3-9093-3c596ebd2a23.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped65d9ad52-fe87-4230-8b24-cc52d51d70a2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped65e27f13-1205-417e-b6cf-43dbd479b946.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped664e04c4-6609-4d30-b9c9-2a1e93f052fb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6664afd4-d432-4469-a9db-008b92fcfdee.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped66af5ec8-b5dc-40d5-b70a-c8c176b9ebce.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped66b443c9-45ee-44f6-91f0-dcbc661c6fcd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped66c64838-4041-44e6-9ed3-9c853dd42a57.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped66f9f6ce-c878-4317-b645-b46110c0d021.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped67003e36-7200-4b1a-946f-19bedf699968.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6709e53d-3a56-47c4-84d6-da6643fd95c5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped675efceb-5f09-44ec-a3fc-e5fd08c86594.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped676246f9-b49b-498c-b7eb-2fab777633c9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped677a7f57-741a-4e49-aa98-5c19c4db254b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped67af4e18-6f68-47b5-9dfe-7bb57a37d877.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped67c3e7f5-54d2-4858-86e6-ca79f59e9594.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped67c44f4e-3434-49ab-b211-449b9bddc015.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped67cde2c5-6225-40d8-b831-42b88276fa5b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped67d9c2bd-aab7-4f4b-a6f9-e383127f8548.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped683216d4-6411-4177-8bbb-d1ecf03e1ee4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped68df2dc8-24ad-46de-b1ae-641f5c177955.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped69f48b0a-cccc-47c9-a04c-fee52bd9452c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6a12bc5c-b625-4505-b102-12c4c36c2fe2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6a3c239f-5b91-4595-a000-38a129cffc81.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6a9362a1-78a9-4da2-9cdc-2f9e5e4eb5bc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6ab97e03-8f0d-4d81-86bf-2343c90fce12.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6aeacd8f-2a0a-4195-b22f-370ac7d5552c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6b134c96-c715-4162-958e-aaf0f96bc2d9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6b193d1c-d724-4337-860b-01326ce457f8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6b42dcaf-69eb-4081-9065-02034992f2da.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6b50abe8-6318-47dd-abd9-496ece3e8676.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6b71678b-ad49-4bd8-bdf8-fc675e1e9925.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6b79a723-c3cc-49b7-ae74-1bc3d44471d1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6bceb32a-553c-47a7-aa41-0dab8025d947.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6bfcaed0-4a92-429e-8996-986b6f8e2e14.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6c4ec708-f460-4285-a053-5f1433b1cdf0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6c6b1ff7-97c4-4105-8393-f9b06f99c310.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6cb03801-eec8-4aa1-8ac8-946577b76690.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6cbe3601-560f-4be9-b281-d9d12b446e00.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6d1ea4f6-1792-4edb-9a18-2ee076f5bd85.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6d252a03-7dff-4db9-a2b9-725abccf5b70.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6d4ca83f-6a38-4c8f-aa8a-48fcddc63697.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6d722662-2b9a-454c-b5b2-fdb022a35c48.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6de61ca2-8790-4637-9104-9170fab9d38a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6dff2712-0bd0-4270-bdc5-d17afd706497.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6e050595-ff7f-45f2-8567-43e6cb9bc456.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6e45701a-685d-4979-8731-40c7df8c31f9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6eba1068-33ee-41b0-8a56-b437944bda28.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6ef033ff-cc1e-4564-86a6-245e7c94e727.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped6f02db23-3f1d-4b69-a593-8a38f13da6cc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6fa6aa47-21a6-4ee4-b254-2438e379551d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped6fda6dfb-ee87-487d-8c23-1aa0062779f0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped703b3bb1-e305-4cb4-8aec-2d0423eac146.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped706dec12-2b11-4aa3-a43f-af0bb59e8370.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped70a07b59-c337-46a6-b3c6-2f3e89947e78.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped70e858bc-f4b8-4a58-a8aa-96c5cfc64a8b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped710dd03f-0668-4ebf-81e1-1475902d99c3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped713eb958-c423-45e1-aa5e-a7c985fdb439.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped71dc8c48-5ab4-46e2-a2d5-b13d42c2249a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped728e1e3c-4617-470f-940d-6850a812df57.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped72ab2b45-d9c4-4810-8dcd-151f46d0ab64.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped72fc3ff7-facb-4f96-b36d-05b67ed55e70.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped730fd7ab-e059-4293-bac8-cbfaf7a0feca.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped73144c9c-c1be-4f5a-a2ec-2a1f07789f4e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7329a0a5-948b-410d-9f48-7b6e762dbe62.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped73638295-dcc0-4dfe-aa24-c66baa6d4ecb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped73f15da2-e4f0-4e28-9f40-a6a873746f02.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped73f9e6be-f414-4f11-a5c9-38484803aa1b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped74545d4a-ac42-44c5-b637-ca3ee4024594.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7483b45b-0759-4f99-a0e7-6579401272d9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7491bc62-a854-431d-adf0-fc4861099a5b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped74d04ea6-d3a6-4a7a-a209-c2d4b593ee60.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped75211058-6764-4bd8-8cf1-be2137c7ef9c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped75b399e6-3923-4a19-ab19-5a71fc1ba194.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped75da7aa5-a836-4cf3-a4b6-5b8aad4e14be.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped75f432e8-f58d-4d0f-80e5-dc210e361ac2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped76004d09-9a55-4981-ad96-bf09a3d07236.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7644731f-3947-41f9-a8b4-f3bfe12517e3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped77b062ad-7051-467b-965d-f1caf635a8f9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped77b25b90-6dea-45a3-9d51-1d36057eb02c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped77d446f3-ee31-454c-8344-0c24cd51e226.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped77f331c1-15c8-4e4f-b5f7-b506cddfd9fb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped77f35043-9483-44dd-ba1e-63e9982d2985.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7852127d-1565-4abb-b63a-95d4f7858630.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped78bcc975-6830-4eb1-96a1-11862b3d0a2e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped78d93e33-46ad-488d-a167-13e8a9e8c8db.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped794e11fa-6040-409e-90c0-45ef178021f2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped79d2c22f-0657-4b3d-8040-b93616bf506c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped79e760b0-7c97-4ad1-9d10-990f9b970e5a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7b5f87c4-9f03-473a-bc13-406d391bcb6f.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped7b833ce2-231c-4008-b021-437dd4a2441e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7c3bdd56-8ba9-4d14-8d41-ccfcc096936d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7cc58a70-c0bb-4229-bdb7-910fd89c5a3c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7cc6b91b-da1f-4fec-95a1-f45d7974931a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7ccde395-6238-4bb4-91e6-0c5548c412b2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7cd7ea15-9b2f-4500-95bf-9a766262de53.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7d2e4da4-76f3-4a23-86ff-b6750984ce4e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7d323ca8-6bcd-4a57-965c-0231bb0f831b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7d3d0f1d-ab91-4f7f-852e-4781d21f6a57.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7d57338e-5397-4169-b62e-a945d704f3ac.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7d97d5b3-4eeb-443b-a1d4-212a329d6b39.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7da2fb6b-acb0-45db-99d4-86546e3344fb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7defbedf-b379-4463-98cb-3c7eabe25b52.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7e34189e-2744-47c2-9a36-65a31d7d6083.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped7e702dac-33bd-424d-9ed5-66cb83be1360.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7e974822-056f-48a4-871e-8f569de9dbb9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7eb5c00a-1df6-4df7-ba85-f1f37b1e7b0b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7ede8a44-c2fd-4bfd-8d6b-5bdee30a7211.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7f111b2b-b2ac-4fd7-9ac0-af1def0712fe.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7f30c8c1-fd2a-4d93-b90c-f12117476093.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7f413c1b-63d8-41d5-bc91-7816b02ae8a7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7f4fe24e-13be-4c9e-b9da-9194ad7e283a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7f8379ea-60d1-4be2-ad1c-7ba0f6331ec2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7fa526b4-3f06-4604-bc4e-fd9be9af8383.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped7fe847ec-67d4-4a1f-b4c9-e35a3aad4d50.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped7ffd486e-db59-4234-b626-57a3c448659c.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped80968a89-acac-4e47-8440-edbb52ed8dcb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped80bf834a-110c-4879-add9-5147dbf83354.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped80ffb714-f496-4412-84ec-bb22cddf9bea.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8181e049-0688-4dd3-ae05-f7233f05ab98.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped81a4db21-9b1c-493c-bc65-bd57a424b8da.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped81d64444-050f-47a4-947c-dc9872634d5a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped81e6301e-68c4-424d-9a70-5cc8873528a0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped82056a45-065d-4c13-8683-ebc281815c6b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped82248e0f-9934-4943-b7f6-0222c0df78f6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped82307872-0ff9-485c-90bd-5dc3ec2a1b41.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped827dde18-7242-41b6-b0a5-7bf1288863f9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8287a620-6665-4657-98bc-72dfee2ff90c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8362e457-b557-4071-b303-435e4d8ba604.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped836b9488-b066-426c-9eb7-236eed0b306b.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped8373a0b7-56c6-4516-a48f-f0404ff3ddfc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped83d0a965-1474-4a41-8526-d293920c19c5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped83efafdf-094a-4f57-b074-db632cb5301e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped84284605-d534-4b8b-8802-0163fd133326.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped846889bf-0e57-4a0b-af6a-1a783d9aaa73.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped846b1c76-2ea0-4746-a625-5e3ace9f01c1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped84c6845d-da3d-4003-ad99-d9f65e8e29f9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8518dba0-e7fd-45df-9d74-ecd43e0a0858.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8525c83b-ffef-4b2d-afd6-717b5b8ad912.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped85343e2c-68e1-4e75-8d1a-1e24aafddbac.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8561881b-c697-4d4e-a9f5-b2059ab36e96.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped85c28a6c-91d0-46ae-a966-2f603fb904d2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped85f6fb5f-6951-454a-a464-0e717aa92f3a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8616d66b-37f7-48a8-b0bf-2871d37e203e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped862b1586-303e-40f2-a670-469533624327.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped86493462-b256-4647-8aa1-14c709500370.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8665ed11-e6e9-449e-976d-eca914495be7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8668556f-9a4e-4d77-b738-026d6b8a60a6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped86824327-65d8-420d-ac1b-c8898a993bc7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8683bf3a-6fa5-49c4-9341-1549eb2be859.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped86dd2507-5aef-45f9-b816-3b904dd64c43.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped86fae10f-08a1-4782-9085-2c8c42153828.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8736ab80-5adc-409a-a73b-b8787da2f34b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8737421e-1f3e-4aab-a8fe-352361129cf9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped877c3aa0-cefe-4940-b789-013315e263e6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped87bcf676-8389-48d3-ae27-7f3a27774218.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped881dad8d-726d-4941-ad09-a511c7c12134.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped886e2946-2688-47ee-a8d7-b7b3cf164907.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8898bc22-63c7-413c-9af3-25b54c00e750.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped88d28df1-8d1c-491f-bd93-ba63a41423f1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped88f13b31-779d-4a98-9782-5c141e5ae877.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped88f9de32-91f6-4e0c-895f-065c73e8e045.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped890a02ca-7e91-49f9-9faf-a1bba40bc7b7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8924e95f-5d0d-4cd3-b80c-63f61ea8dc55.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped893317e9-4be2-4860-a634-13d16e269a55.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped89434c6c-ea5e-4f07-a969-a51f702ccee9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped894602ff-084d-4f87-8532-a1fdbdb930a7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped89896f97-a2a6-403d-925a-87e0d8cecbb9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped89e50dd6-5943-41f5-a83d-e8470c2aa697.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8a0a55d8-1e19-4304-a3fe-7674fce12674.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8a1b5ab9-9e4b-4c22-8ee0-e2f26e98904e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8a3f7f0f-a9ca-4e4f-9371-4fa713abfa8c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8b3f7337-1a08-4708-80ce-f2f91c5528e8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8b48a343-e7e1-4c02-9e00-44e40c1c02a7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8ba2ea63-cb9b-4251-8cb6-084ba517e35b.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped8bbf6916-d3e3-44ec-98e7-976f8cd42775.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8bd83a66-a33a-42e1-a26c-17abd7284b11.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8c1f37b1-09a6-4f76-9d92-57caf4cccf9a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8c58c9ea-5a9e-4fb0-9f92-cb1fd0afee66.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8c6149df-e071-4874-9939-d8244e3db60c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8c630ef8-c001-4310-91e2-1242ab02650f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8cc9c30b-ccfc-4b43-b654-0fac8928224c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8cee531e-35c0-4a68-b302-c5b21ad0870c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8d3218d1-f646-4470-b616-952e6ca7ee3a.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped8de578f6-8162-4624-829a-15589665ea3b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8e2cc25e-0404-4b31-b01f-b4d5fbe69604.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8ea2d203-1ad7-4a82-a586-d99134e8218c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8ebabede-17e9-43ce-9a66-dc6907e9464f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8ed14f48-4536-4c04-845e-6fcbd7cc2fbb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8ed795e5-5283-4047-a7a9-1f1b9124f81e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8ee7685e-c226-41c1-91ba-23e0235de2a8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8ef50181-b5a4-41bf-a3a0-d1a7cf15db4e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8f37a02b-dff8-4eec-a66c-e7ec9d5ec21a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8f676260-009e-4725-a7e5-0e4c6996d80e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped8f94351d-ebb2-4cba-a2c5-392f745acd99.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9053ef38-9fe8-4183-a0eb-58afb1653dd5.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped91ddb2ca-a8ea-48e8-a02a-613c7c613aea.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped91fa9e5f-025c-4546-a3bf-b5afcd62fe13.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9229e394-7d94-4817-a888-a9174fc493cd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9237b157-7df8-4478-a3eb-32c9a8f1391e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped92849470-bbd1-439d-8aa9-257dad920dd5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped928dca3c-c34a-41d2-ab1b-ae0d087c094c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped92a592a9-83df-460f-83ed-fa59f70f60f0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped92d3e22a-8d4f-41de-96ad-36e97787d1a2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped92fa63df-7869-475a-9361-3196fa3d905f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped93179e68-7b31-4985-9a1b-ffd1891b5708.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9352ba04-4a9b-4fff-8f1d-e1fe10d342a4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped93667f49-61ea-4145-8fef-a22c253b1a7e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped93696c48-c161-4258-82ad-be47b1858136.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped937536bc-d677-4588-8073-f1adb0e2e62b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped938a3bcd-8d63-478c-8814-1e656d085662.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9405301b-353f-4afb-a4b3-47433e9e4f0a.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped943d3608-a721-424e-b53b-7d22e19ffdb6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped946d2f81-33bc-44e8-bb31-0c72904cf869.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped946d5869-cbdc-47e8-af02-8c32f82d42f7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped94a8b340-ecbe-41a7-a682-8543050f9caa.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped94c2edb3-2dbd-4b29-a8d4-94c6eab3743b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped94f57c23-2326-4335-a3be-85deda6728c0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped950619c3-7db4-4a85-8ee0-ea6a6dedf98a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped951d9c36-b5dd-4443-8a1b-d4555b158354.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped95254d69-60ac-4b71-99be-e630102afbc0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped957ca8b2-3aab-4d49-b1e7-0a9ccfabdb37.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9594fb61-4ead-4837-a82b-df0fac06548b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped95e49ebd-1a73-4004-a4b9-7495c3335971.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9668dc23-8d98-4240-9bbb-408096c7574d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped966d0d43-93b6-4874-8e95-1c3d83560207.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped969e5fd6-219d-4728-bc1e-8d54819094b3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped96b52365-3513-4fa7-be00-3df20ae831bb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped96c0c069-0401-491e-a97b-a8680460b472.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped96e8f031-8704-486b-986d-a142f36a6bed.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped96ffb078-6bad-475c-aa6c-767c197e875f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped97253210-d77e-456b-b570-5f8ff5e19712.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9726d394-0278-420f-810a-038faef1e8a6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped97302239-8bb2-4e3c-a9aa-5934cf9c44fc.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped97fdfa31-fa23-4c2c-bc5c-a7536c081ac8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped982057ff-2472-4a82-a08b-14e070cbb515.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped98c0be8d-d8fa-4795-8333-b7cd25cc36c6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped992e50b4-3e25-4557-b984-4d4e022bb607.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped99b8f809-b663-45e3-9326-dd8585dfba37.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped99c0ba5f-1ca2-438d-941e-c9cb9f11e0c2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped99c48817-2f81-4cc9-bacc-d49b4bc52a71.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped99ece5f9-bca7-427c-8201-999fb5811dbc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped99f15c56-e751-4cc2-bdd7-82563cbd7479.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped99f8b76a-5ee6-4a67-8fab-f8b17c9117de.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9a1946bc-0cc6-4daf-acb1-b2efe18c1f45.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9a1a8f63-34a7-4fe8-bdce-1872c7552111.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9a318e3d-5828-4650-a343-c822019cd61f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9a51cec5-25af-4827-955f-d7b7479d88d4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9a8266c8-2216-45f6-8c37-e7f4d79b0793.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9ab197d3-9ea9-472e-ac63-a69726d7d5e5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9ab53b9d-3942-457d-aa0a-0e661e958e99.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9abc469f-a2f5-41e7-815c-9cb5984785a8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9ad69c75-ae40-49b5-a81f-bc22e15c040e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9adef6c4-97c5-4fb6-b16d-ebbcca5c9b3f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9ae396a1-7aa0-46ea-905a-f8ff08c329f2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9afaf3b4-939f-4be3-89d4-179cb04644ff.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9b080113-164d-419d-9b95-6469f40744da.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9b446b44-4591-4233-8ed0-a7807eed12f4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9b52fa5e-183a-4432-b891-3771ae26133b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9b68accc-e96b-474c-8702-7876f0175c2a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9b899195-1dd9-454b-80d7-4315860de6fd.jpg",
+    "success": false
+  },
+  {
+    "path": "test/cropped9c1b733e-373c-4691-a89b-a3c670bc798a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9d2c5651-8f09-4d8e-b7b7-a162dfae3ba9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9d492d2c-bba5-408d-9c70-c11aeb3e3eb0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9d5e7e46-181c-46b7-912d-ded349ce249a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9d778a99-28c7-4061-8fcf-90a892bb409f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9d783bbf-8d3b-430a-b18f-0f099dafab17.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9d7fc401-1443-4895-9ccd-ab55dbbc25c8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9d9d276a-569f-411d-9d4a-eb7bf1f87e5a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9dda1aba-4f1c-4047-986b-6bdf01ea6b20.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9e05b4cd-7a16-4baa-af4e-c3b271fb2b04.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9e151f5e-d85f-40b2-ae73-58a77d70c49d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9e5a42cd-8d86-4248-9c84-13a86ed487d5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9e5ae94a-b0dc-4bfc-a788-d4846a6b95b4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9e650b6c-01b6-49c8-81bb-ff3723fd5671.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9edf0155-b30d-4fba-9ae8-559cd3c3781f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9ef63879-dc1e-44da-81cf-d668e4399965.jpg",
+    "success": true
+  },
+  {
+    "path": "test/cropped9f8ba834-b60f-40f9-a7b8-a52f76bfdad6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda08e04a7-c99c-45c6-b4f1-dba8c3b65030.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda0e4d1cd-3c7b-4eb9-9408-57892b1a9925.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda120a88f-41e0-4cc5-857c-35ef4f7220e1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda14266ab-13e9-420b-9e98-f92ec3f0a94a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda1547a11-c9b1-4071-a719-fc87ee451385.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda16c0831-2f74-47e4-87ba-01747af6223f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda1b04a26-3eda-4a70-852e-ad0a11521dac.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda1b345b1-e410-42fb-a141-8d969445eba7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda25574d6-d047-4889-a4e6-7b118a26e734.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda26ab93c-1a3a-42f6-ac5f-a3d98e1da00e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda283cdad-b2d0-4e8e-bebf-a6c8f95aa39a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda2b5d849-cf1a-4728-8a3f-c46f47561528.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda2b88c1f-9a02-48fb-b565-b0b5705d9b70.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda2c9cf9b-0bea-44f2-8b81-ee9a2feaab7a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda35f50f8-d05c-453e-97fa-bb871d317900.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda39e0dfc-4db8-47b8-8436-c24fd47909b5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda39e9a3b-3cd7-495d-9deb-9a82264a8e8c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda42aae0d-3b56-4729-babc-4f35b13d8290.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda4aaf29e-1d8c-4e91-8c07-180ccdda14e5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda51f6e13-af03-4424-9a09-c24fa39bd620.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda56b91ce-ed3c-44b7-b390-79913464f666.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda5864f6e-f37e-49eb-95ac-c1787abbdd73.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda5ae6c15-116d-4d61-8add-0ceed3e638de.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda62a9423-60bf-4e02-96f3-5d805d7ef621.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda63d2852-cb22-4ee9-a298-4a19def4c5c8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda655548f-3822-4166-bde5-aac651a58ecc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda6610a25-9e9b-4abd-99e6-a47cf5d770b8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda68171f4-2ea3-4db4-96cb-20387b728c00.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda681ff9f-a577-4031-a8a2-35d13c2d4c89.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda6b1a3f6-9ef3-4777-82bd-a3bca54e119f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda6d68500-feb7-4473-b049-2fd7eca5c62b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda6ddd686-959e-45b3-b468-64ce757119dc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda744d482-1d5f-4b4d-9787-c0ae553e4980.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda764774d-cf01-448a-bbb1-1088ec6bc53e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda79ffdee-1c39-48e1-888d-714d7b751cc2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda7fa5064-64da-4236-a802-101b269cd3ad.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda818050d-7904-496a-81cb-d6a63ee8bd24.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda8248f9a-500b-4fac-b3b1-51bc28ad8679.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda836bba6-f1a1-440d-9b05-db048b803b01.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda841e5e4-518d-445b-9de5-60ac72ac6599.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda855fb73-24be-4fe3-8837-778243b28865.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda8608900-cee8-45e4-9a3a-9c623c651a47.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda88d88ca-1ae4-421f-a61d-8b73aea437a4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda8ea576c-d225-44fd-aca3-49655c9e282f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda9701b64-8e5b-4774-baed-37775f28e6a3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda97606df-9aee-4cdf-8f1d-d44b2371cdab.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda98d3aee-5433-4524-b8ec-6aab3badbb83.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda9a8deb8-f693-41c4-9fa8-5dc70f769b61.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeda9e8126d-e22e-416b-a55c-8ee183464b80.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedaa1dd9b2-665b-4b94-a60a-9e8cc4f0ae11.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedaad45ef6-cff4-4b9c-a479-d80fbd810b2c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedab0ab85f-d1a0-47b2-a145-d77c51024e57.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedab2eb36a-a100-4097-a3ae-a8916b6c5455.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedab4094a1-4494-4308-9b96-48a12512a45f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedab49497e-0787-4d53-b39b-83d2eb72ef18.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedab708579-0433-4d66-a2b6-a0d4286d31c8.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedac10ef02-9ec8-4eab-a7fa-b730a76223fe.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedac201456-8fbb-49c2-87b4-fdd2b38166c2.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedac6a02f0-c3bf-44e3-921e-e7f2120bd4de.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedac83785c-0f2f-4b30-bf87-536a84f3c922.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedadb41852-44ab-438b-9d33-fb41352f73f6.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedadb9ee18-96aa-4cbe-81d0-a559443ea753.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedae24bea6-2af4-441f-a4b7-1eb94ace6c13.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedaf53121d-5bdb-4d57-839d-373287111a56.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedaf59eea5-268d-4c15-bf06-7fac3a93bf68.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedafdd1325-dd28-4202-8872-da911af94be4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedafe12545-6d87-490a-880f-43ebbd8910e1.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedb0125044-db52-47f9-8c1e-8c14bfcca4d7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb0406229-7d22-4eb5-adad-9e134e0a9ce1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb04d97b1-58e6-46b8-b6b0-688bb6e66ce3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb08c60bd-e9ff-44f9-b540-ab837421c13d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb0aaf19e-a8a1-4be4-98b9-5ae2286411a3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb0d80bf0-278a-4e00-8254-17c254232636.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb13f3f84-80ab-43df-9c7f-693097e36c82.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb16b86a4-7f2b-415e-807e-5c1ab72fe83c.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedb181650d-df16-4669-ae89-4e68f8f58664.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb1c6db9f-21be-4693-85af-9ee50204896b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb22f6d2a-8c35-4357-acf6-4f9a6d5ed345.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb25bea72-c6ec-4491-ab27-fb470f1e24db.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb30cf272-dd22-43ce-b5a5-6d5794c5eefa.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb34b635c-a872-4e13-860f-c817971fb7bb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb38748e8-bdff-4c06-a1b8-27965094bc60.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb46490f5-5ba8-47f9-ab5c-5e592b1b6801.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedb46b1151-0c62-49eb-8248-83beee3b4dd2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb46c1d3b-1b65-4f04-ab3b-43b6d8d6dd4b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb4f1480f-738f-414e-ad13-29fee2fa9bb4.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb5189278-b48f-477e-b045-450e51d2af72.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb520c1e2-2243-46f4-b738-d3291af0967a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb524dbb7-2345-4862-9da2-9014c9a083f0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb5a0f408-1921-48cb-8ab9-c7469861d42b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb5cd947c-25d9-450c-9b12-a7b339761123.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb5ffc3bd-20f6-4279-ba23-22e5b161356b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb63c548a-0bf5-4131-8e3c-90aaf424c865.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb6863a3f-c780-475f-9b56-2b660afb0b9a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb68b62a8-8cb4-4b00-baf9-8406e18a3cfc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb6b7189d-cd8e-4645-9ee4-bcbf30123517.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb6ca9dc9-4660-4c16-b156-951ebbbbb3a2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb6e157ac-81e3-4740-850b-8554dd25e38b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb70c1f03-9907-4201-a15f-ace316949c5b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb737f373-8d1d-4504-8a8d-739957545224.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb80eeec6-8c8e-44ef-bcea-fe8dbc61b387.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb818c811-7065-470e-847c-c075b943c7bb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb8374838-6600-48a9-8468-8083c01a0f36.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb88b9654-83fc-45ac-aa47-ee8019520fde.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb8c5eea0-5e81-405f-bd40-e3986826ce45.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb991cbc7-5207-4f4f-a57e-1825e0531eb7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedb99d3cd9-116d-467a-a890-7e4578612e32.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbab3cdc6-0cc6-4e5a-bd97-1b5b23dc4511.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbac35b78-c017-4f74-ac4c-668d5a044dfa.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedbb014d0d-ebc9-45b0-9da4-494a77b9adf2.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedbb069794-ee68-4e97-83bc-44986d868244.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbb0a381f-ddb5-4b5d-9c1c-f3c6eab4e19c.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedbb16e31c-97e2-4b31-ba73-7509024bde96.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbb5fccf8-e546-40d7-8204-163f218da1f2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbbed19f2-8404-4496-a24b-c35e0f0dd9bb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbc0ba094-3776-4fcd-a724-048df6247cef.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbc0cc50c-b955-4bac-9cc5-467cbb421c45.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbc1590d7-dd45-4b83-ab8c-b4db3437f071.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbc629dce-9653-4120-9cfd-8834712f15f3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbc7f1a42-97ea-40e5-ad07-1bead510595c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbc981b87-c3ba-416b-bc0f-f16a5d9e803b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbca4f2cb-c083-4da9-b3b0-5fab78743ec6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbcafae29-286c-45be-87e6-62e66ae93589.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbd370eb9-4c92-4eaf-854b-3111033c8f90.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbd47372d-7846-4489-b57a-6aed8696ec07.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedbd5a4f85-3353-44dd-b948-5b2d65d646cb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbd6cf38d-c8fa-46d8-8615-c4135c09e212.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbd81f2e1-f2db-4afb-adbd-a704ba0c156c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbd8d0a36-7073-4dda-8208-138b68039a4b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbdf2e57b-40c2-4e94-b5e7-adf85d994375.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbdf40c05-a699-429d-bfbb-688bb8c4e847.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbe46b3cb-4882-4e05-a721-b0bee53c8d69.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedbe6b7ef7-089b-49e9-8627-133322aa1f26.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbef2be3c-5313-433b-b959-73fc2315d041.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbefd66d9-3475-42fb-b6ec-4be30acc22fe.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbf1cfe27-49c8-44f0-96f9-0b9f5950d6ef.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbf5f9fb9-d55a-428d-96ae-17076f625e4c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbf65a6bd-d52c-4b99-b39f-d9bf5c29c0f2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbf6d2dd3-64c9-48a7-b9f2-ca535b3baac0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbfb49aa0-36f0-4b95-8620-53307cb964b1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedbfea63ed-e66e-4bf8-9855-fcd1254f3fc5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc05e9e1e-61c0-44bf-a5d0-cbe6a720a9a7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc096aeb5-d86b-4393-bdf4-75587742cf27.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc0a5f73e-7b38-4671-b6cf-184c8bc31e90.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedc0c1fc2b-c697-4a8a-879a-6e0edd2b8812.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc0e0b5f1-2b88-4e1f-ad56-f0f9aefcda14.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc10a783e-9595-49cf-ac37-333d49b2c4b0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc129394b-4633-4aa8-9e46-2d1e4c39f037.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc16530e9-5ba6-4b80-858b-0799f2ab7697.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc269f55f-939c-4df1-82e1-23bce74f13d3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc29e1dca-b522-46d4-8d58-f616d64b1c35.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc2a2e70d-b8f5-4b7d-95fb-46c6c5b85575.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc324372b-80b8-44fa-83ab-b53a230d144c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc3c22195-14b6-4fd3-a28e-5118964eb118.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc3e16289-9e3f-423f-b22c-86086d63015b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc409e507-03ec-4b38-b2f6-ead498861a95.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc43d52c2-2d34-4711-8934-f424585186c3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc466a90c-4b14-4083-90b7-23b38c403c39.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc4d761ad-75cd-4b4e-a740-f0c69d4c6330.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc4eefb0e-d578-46df-9e0e-e4ab17e86833.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc5201e8e-1348-48e3-a867-8bfdcbc83fa2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc5b67cde-8753-455f-8329-40c9f9e9edab.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc623aca0-4d21-41cd-9991-c447d3195728.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc69ac9f5-3a77-41e4-8221-0711268976c8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc6ead39f-dc2f-42ef-a9df-e73e6fd7d601.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc76ad81a-53cf-4c6a-b9b7-bfaa3dd2599f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc787791e-9a0f-40a9-884a-e768cf54fa74.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc7956522-86dc-4e88-ba85-efea4931b3c1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc8003ffc-2694-47f5-8f18-e9a06b2b6107.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc80b4e76-6db8-4c39-be4d-99311aca90a3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc944fd50-c2f7-45d1-af0d-83456920dc58.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedc9a4ecee-1653-4d92-ade7-3e7b09be21ee.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc9b28d67-9d71-45ed-aac9-002c24281269.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedc9b72480-4840-48b4-8690-5fc94e2ad8b2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedca02f5dc-f1d7-4c27-b60a-4ae0a9f257b1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedca3d5317-8203-4e1f-93e1-7352052a0f06.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedca63c857-4dc5-4316-b48a-c6fa9adcc2cd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedca8061ab-521e-4b8a-867e-f7e2f738ffcd.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedca812294-2068-4c15-b410-34f41d6bb72d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcaa5f8f3-6773-4268-a1ac-20fcf0d1867d.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedcab1ef89-f5d9-4efd-a586-bcda52147cc3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcb059699-08aa-445c-a6da-96645d838212.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcb172d33-2003-4798-9be1-528522f81ca6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcc00a402-0546-45c2-ac4e-dd595976e692.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcc176ee4-839b-4452-bb16-e8af3010ea51.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcc4402b0-23e4-44cd-8740-39f2998998b8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcc776d37-5ae2-44f2-ba1d-0e946d69dec9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcc81106a-f1ef-4faf-a9ca-71e0fcf6fbc0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedccaf70cb-7747-4cd9-a2e7-e4bc18a6cca0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcce31f31-6f15-44cc-a193-4bab0b088a77.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedccea67e6-a620-4ce4-9306-9d38f09309a6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedccf8d8ba-4f5f-48ef-b2e9-bcd306d4fe45.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcd136c46-16a3-4db3-9f2a-8b8f54fbd6c3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcdb257a9-5b1e-4b0e-85ec-1e61ea37fdc2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcdf25235-cf2d-4679-af5c-f22b9220523e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedce1203e3-a70b-4091-a459-e233b86563eb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedce1d46f9-44b0-437d-93bc-13b158ba07f9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedce3792ed-4195-4ebd-b627-17f202992cbb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedce5d1ba1-9c83-4ce8-b3df-a6ec861da228.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedce639c8e-5d34-4537-b968-c045d8128af6.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedce8b7f14-5188-4045-afa3-b328b6efd62f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcecc526a-171e-4953-bab8-5bfbca5d03af.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcf56aa70-282f-4f32-bc1f-9d84bc0c98d8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcf648cd2-e73f-4772-8677-d5808cd5d1ef.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcf74ccdd-e5d0-4e6d-ae70-c86b24e125ea.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcf7a4933-581d-4c14-84f3-2ff6e2ecae41.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedcfb2e5f3-9ba5-4547-b248-6aa4b2fdde5e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd015cbfc-8e37-469b-9402-39b7dc9f6e52.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd0e9a38f-ee3e-4e7b-b096-e61896875b7c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd0fe7ed6-e445-4eb5-ae6a-3c46ac4eb16e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd1220d7f-103b-45e4-9cdb-4d78448261ca.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd134b998-4e4c-4435-b3ab-f2bd5aaff32d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd19b37ec-e97f-4e72-8191-a7a4b2be5a48.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd1a5ea19-d5ba-45b2-83a2-1e2fe29585ad.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd1f5b1d2-a9eb-4430-a904-2113a721e8a3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd25c7e8f-4963-45ee-9c2c-061eaec96a94.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd2630853-f379-4f93-bbef-de323e229a73.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd2785458-fd42-4f87-a63a-6eaf848f56e9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd2984a1f-c954-4bd6-be58-d820ea297ff3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd2f50f61-ca2c-4896-86af-0bc099680bbf.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd379c54f-c325-43fd-9a91-af00217aee25.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd387ccdd-ff92-4c61-a356-844509d06849.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd3c78167-b388-41cf-918e-1c44d4682815.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd3ca1de8-ee3a-49e7-a0d6-9de2a138eb6a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd3d0db06-a55c-44bf-9b6b-2e2f17a47d09.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd3f71e6c-89b5-4263-bf7c-f0aa6e59da93.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd4056967-5a40-46e9-8a6d-8d10d813df0e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd414287e-c606-496a-831b-eeb0cdf1ea45.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd434164a-3655-45a4-9a95-6396beb8434c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd47739c3-1a8b-4785-b63f-d63d7e59fcdb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd48b7038-47fb-467f-9b9b-dd663be82b1c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd4a4ce51-adfd-4bf9-82aa-b11e4e0d20b2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd4fee8c0-e3dc-450a-82a0-226b4a5c453d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd5511e25-97ce-46c2-b3f1-3cffcd801517.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd55d254b-f7e4-4752-ba11-a5c1de195c16.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd595ef92-9735-4e67-afa5-ab6e3e965901.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd59ef7aa-18d9-4470-b21a-053d1f97de7d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd61dc135-a5da-4bab-8f73-28306dd8db08.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd6276b00-3309-445a-919b-2b9f5725680b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd658cb2c-2d3d-41c9-b5c2-9a0e7aa6862b.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedd66a90e7-74e4-4dde-b87e-b426e82e8d81.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd6dd98b7-e1c1-411f-9f53-692a6640be58.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd731f286-9fc6-4ab1-a8ce-f808915231da.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd73a0b1a-72c6-4671-9a20-b8452d013eb5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd7411b7d-2a0f-441a-9b91-fc474bf6294b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd76b37e3-22d4-4f1b-82b9-0a0609176e2b.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedd7758cb1-c89e-46ef-95df-b7982dabcc1f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd78a5def-304b-495e-a7a4-782a7f54d373.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd7e76d2e-8ce8-4b74-b7ce-8ab952bdbfae.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd810d37d-95e4-4482-aa80-c9e8fb158822.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd8140b4d-0f06-41d0-846b-681fca177b31.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd81587d3-4d57-427d-a828-58aa42a2cacf.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd8b8710e-9a12-4987-85a8-c884dd0987ca.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd908f866-0e00-406f-b371-76de85b8c292.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd92e9c6b-97cf-47a7-bc49-387a4e65bce1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedd9ba89a2-e1ac-4b35-b5ca-291df54eba02.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedda0b38cf-1d35-4c1a-be34-0052d7cca489.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddabeab1a-929c-4207-a5c6-0e16b905a09b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddaf71d32-6073-485d-9053-c170b20bab62.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddb118f8f-f4d1-47f1-af95-506ae8772cc9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddb18d5de-0e64-45cd-9d2f-038d15491571.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddb5e3185-a809-42a7-a664-e1283bf5358b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddb7be5ed-e4c6-4527-b4c4-220428e388a5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddba8f6a4-572c-426e-aa69-ecebddd462da.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddbc1d582-939a-46c4-ac8a-a3723042aa06.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddc2819fd-333f-4a47-a80d-30453c5f1397.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddc569850-7906-4c00-8478-112565ea96e0.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppeddc5c2d94-bf70-4a75-ba4b-bcdd78b49ea2.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppeddc878468-7d41-43b5-b719-d9f9ba542800.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddd88aa80-535e-41e9-a6dc-b53c80892578.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedddd24efc-0227-48fc-832a-627e42bff88f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedde20fd87-5f4d-4892-903b-bcc2201a1596.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedde6753b0-d27c-4d8d-a54c-4c2bb52eb200.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedde934ed4-a674-4c36-8685-475f421a4fe6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddeb5784c-cc9a-4934-80b4-ab3805decaca.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddef02623-ff44-4751-b2bf-ea734adacc8f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddf0aff59-bf24-4f07-8e74-2574893f3fde.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddf7a7c9e-e843-4212-b320-68fbaf79a886.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddf846380-6ba4-457e-9167-3a85e412d6ec.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppeddf89ae44-c47d-4160-a415-796d30ce9676.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeddfd39435-4fd8-47b6-80d7-656d33a5b5e3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede12527fd-87bf-4a9b-bdaa-ac82abc2db9a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede12d6c17-ad36-4f2f-ab0e-fab2d2335ef2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede1a5b0dc-3e33-4347-9ada-7330160fb336.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede209addf-ec76-4de6-bacc-b8be6ce65a56.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede2101e66-ddf5-4011-a1d4-f1c1238272fe.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppede233d04e-f6ab-46c6-886e-68c28d4c7c51.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede2bcfbab-884f-40d8-a8b0-ff90d933ca58.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede33956a7-7372-4643-8a15-215e72152cc9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede36ed168-5359-442b-aeeb-2f455d06201d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede3701b45-752a-40e7-890f-c39472cea4dc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede37d5633-7336-4abd-aa5a-75bd3a47e41b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede38ade4b-5e7d-4272-9c84-5599bed091e0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede3d273b6-970f-4c0c-ba7e-773f232997a3.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede3deeac4-d0ec-472c-b17b-47b0c538ee2a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede3ef950f-8c6f-4761-bb77-37199c70a19a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede4b6c431-9bc7-4f75-a648-cd0b54d0e5a8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede4c9c013-3921-45bf-9548-6733145592f2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede5036cee-dd08-4431-b14f-ae19d35ba51a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede52294ae-e189-4636-9416-3500bf6de165.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede52a87f6-fd0a-4264-bbaf-cf8741e14df9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede53c78b6-ba6b-48c9-9157-d3955f01f7c5.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede5586dce-5b08-4a4d-85ab-c22070ebce1c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede5f671cd-5cec-49d5-9b65-f16978ae4adc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede68f7ccf-d4bc-49e7-a090-7c2665dc6a68.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede6b35501-5370-47fd-b3fa-6589b2a3d6ad.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede6c639ac-0f48-4d6d-a704-237ad34ae405.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede72a7c5b-218f-49c9-9e35-ad244ec936b9.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede73126a5-b07c-492a-b36d-154a36a82829.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede777d871-4053-4fe7-a45d-61e8397d0720.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede7bf9560-36d6-4852-90be-5f2c94443cdb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede7f64ff7-4bf4-4d04-a8a4-7087c9cf5d0a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede806bc37-fcd7-45a5-a415-3c16cb5a8ecb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede8422035-1661-488f-a769-ff45bd979d14.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede8a7936d-26c8-4633-896a-89e8425896ac.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppede8b6a1a7-0d89-4d70-97fc-70d6f5e20026.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede91dc50b-21ca-49ae-8642-526d53478fe0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede925cc35-464a-4f3e-85cd-8abe5c588973.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede94f62f2-377d-4dbb-9e82-f9d75910dc6e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede95c192d-39cf-48be-ad35-ce34c96f5089.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppede97eb71a-03bd-46a6-9254-4806c04889aa.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppede9fe570e-fa59-4733-b83a-b8f4930f2a37.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedea632e46-0811-429c-bae3-d1f0c5f62dde.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedea8cd8b8-2724-472e-80e4-e72b6d652261.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedea971fbf-5d52-4660-99f0-9b4ddd9a67bd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedead5c97d-eb44-479d-be92-4666d6b5314d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedeb0926e9-45a2-4c6a-9471-96752e9e6060.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedeb41f4c2-25eb-47ae-a67d-1243181edaef.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedeb8456d1-00c9-4626-abae-e68fd8047e58.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedec0d2656-f261-4146-961b-efffe5a48071.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedec2b3f82-7024-4cd2-8ea8-e108b85b778f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedecb63f2a-130a-4858-b554-59af1c601eaa.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedecdadad3-6891-4962-8b6a-e001fb4e90df.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeded7f4d07-ed36-4b69-beb4-4abedcad892f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppeded8f97be-2387-4d3f-859a-e8befa3cf674.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppededa266b7-151b-49b3-8eb5-b6f38985ccc2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppededaa4e0a-d41b-430c-8e3d-f27fc8299bbe.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedede90f29-b0bb-4a12-a750-77c439c1cf0c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppededf7a781-4169-4659-a4cc-ccb2c0d31712.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedee63a59d-08ea-4e96-a824-6eacee9d451a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedee6efa6c-af12-4ecb-bf06-a762f9673660.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedee945668-6c04-4487-88a5-94491228d16e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedef219b2f-a31b-40b5-b775-8a8682a9f64d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedef28f4cd-dd2c-4cf3-85f8-75eed697f9cd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedef9155a6-852e-48bd-baee-2914f6611f6f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf012ed94-8890-4858-be1a-21af6f7a3fd6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf0203867-a938-4b82-a2c8-875f783bf61b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf02a513d-3802-4618-ba22-f5b3ce181f22.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf04d6a87-07f5-4cdd-848a-8e052d9ad507.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf05810fe-aec9-4ed0-8fb4-977a4028ed65.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf0895a7b-0cf8-4cf9-a707-b34dace036ee.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf08e168f-155c-477c-afad-dc7d6132e92a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf0b43866-03a3-41eb-a3b1-bd5cd1e39b35.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf0e5ff35-4737-4a1c-af0b-a41ac63a2b7d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf1757a89-e6e6-46aa-8f01-d4723c38a09b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf1937756-b227-4a17-bf57-ec518ee302ba.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf208680a-226f-4c0e-8047-2c22b248de1a.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedf291261e-7240-46c3-affe-fe2034e09d06.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf2a47717-a014-4a91-91b1-bcf0bb2b9da0.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedf38e37e6-f0c8-4f81-abc1-a72933aee6c2.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedf3b00261-57c9-43e2-ae0f-d30df0aef485.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf3b7e983-22d7-4d77-9c44-161c6688b935.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf4076dce-606e-45fc-b3f6-3ff48a33f200.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf437ec86-a39c-4cb4-8d47-6bf93fae8799.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf442ae49-57aa-4284-b484-c0f29e5327e7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf46951b7-689f-457f-bc91-f08721821f71.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf484afbb-864f-44c4-85df-17b43548f242.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf4c39349-65f0-41a6-bac2-e325e72809e6.jpg",
+    "success": false
+  },
+  {
+    "path": "test/croppedf4d77d40-fe97-4b40-b0e9-c94e19173743.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf4e5e1a0-fd88-4457-9d5f-2db1d7b6fc96.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf50622b7-1e57-45e7-b075-8b6575d878bd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf50f1d72-92a8-4a59-b545-09394cf24c50.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf562ce2b-9b42-4a95-b203-36461639de28.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf5b4466a-f1f2-4773-834d-232b70801e6a.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf622907a-bf88-40c0-a281-35b92ba4d0e1.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf64296a4-f9be-4fe6-8a51-ac4a8bdecded.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf721e572-2b84-4a98-bc2f-4a763238fb74.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf755b04a-598b-4a53-a8fd-3f1d28cd2591.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf75c7877-dbee-46e0-91aa-cbe4006d422c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf7733ecc-7aea-45cc-9a96-4497b0a55bb2.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf7a7332b-1d8b-4c3b-a07a-cdcee9ff39e7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf7e0cf1a-3fbe-4287-9c1d-0d2e8cb7f574.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf80a3053-a38f-47e5-bf1d-3975c01db8f7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf8ab9e71-5a73-40d7-a7d0-b3ca80b9fa11.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf8d66497-e76c-48e0-8b47-3c16d4f1fcd0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf92a7da8-888b-4024-a0a7-3025f0fb0157.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf940750e-5310-47af-9163-0531a884b03d.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf98d6052-9ae2-4ab6-b925-b80e53a4a94f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf9e65c30-8656-40d8-88c9-6690ea396465.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedf9f3c35c-e1a2-4e52-97b0-7067b60b5b2e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfa3f712a-3983-41a4-855c-7afe73e0ae09.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfac32142-409d-476e-b78f-d80e1fab4cb6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfacfdfa7-e959-4fe9-9077-bef42a471506.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb0b0c71-a2b4-4919-a74e-049d0394e637.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb234085-4500-4b7e-ac99-297c1c2eaf24.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb3504cb-d753-4333-a62d-61a8ab72f3fd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb366754-dbbc-46fd-8d64-a52908c75030.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb36e843-3513-4f44-afc5-894c8c321f2f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb4566d8-7913-4ff3-9492-8498d3b30897.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb6b1a45-edb6-493d-a191-683e6e8f428c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb75e484-a878-4aa3-bb56-9fa114581828.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfb927f80-23d9-43ab-b9c7-ea4e89d70ba6.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfbfe1870-ad27-4e0b-878a-8a2d63c6a565.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfc3db929-d585-429d-bd4f-c6081fad9aa8.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfc60e2c2-f6db-487f-95b0-ecc4f071b7a7.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfc6f494b-f606-4ca3-bd67-3cf007e30488.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfc7f88ae-d722-4ec1-8e79-0dbb999f8e31.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfca94bfc-0566-4ae6-a7ac-6eb205ace9dd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfcdb796c-fcaf-4aaf-8410-43e4270aec19.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfd52fc07-5283-4b39-a14f-a5350035231b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfd59eee4-cf43-4972-b20f-a970fc7a43c0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfd760102-e1c4-4f8f-ad7f-f5e5bbbaa7bd.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfd79435c-be64-4b74-98bb-bccd4565d1d0.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfdf904a4-9e47-492b-9b2a-839537f18d78.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfe1951c0-0ece-4514-969b-94af6889b079.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfe1b968e-1271-40f6-93d0-86939fb1850e.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfe1cafcb-0d03-42fc-b602-d954382d7acc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfe7dedf7-c7e1-47d2-bfd9-ea8aeb9c773b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfecadff1-e73d-4fc0-bba2-a72ad0d34d87.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfee6d343-6fce-4d15-82a4-6601c48a274f.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfee84c71-ff23-418a-86e1-16a853247955.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedfefd4d84-1061-4c24-ac86-bf3c0bbafbcc.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedff157fa0-bafb-4eea-be9e-02fb60486d8c.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedff47e845-5056-4547-874a-5285befc3c69.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedff678975-8f17-4c2c-b9af-8467729911af.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedff7d020a-8dfa-4e76-bb35-7e307d9b444b.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedffb63560-621e-402e-810b-840ed2abf507.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedffbad4f0-2268-4edd-af40-305935e41ddb.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedffc0010b-16b6-4ddd-849d-ff5e3220ed46.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedffccc387-9a99-4672-834c-6454ebb5f152.jpg",
+    "success": true
+  },
+  {
+    "path": "test/croppedffd52e64-10a8-442f-8746-3f74f98782dd.jpg",
+    "success": true
+  }
+]

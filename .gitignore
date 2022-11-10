@@ -1,2 +1,5 @@
 raw/
+test/
+.conda/
+_test/
 my-test.db

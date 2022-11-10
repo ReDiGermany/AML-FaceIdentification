@@ -115,6 +115,44 @@ def read_dir_and_compare():
                 print("[OK] "+path+" matched "+ret)
     print("Finished with "+str(errors)+" errors out of "+str(total)+" entries ("+str(total/errors)+"%).")
 
+def try_find(path,num_jitters):
+    # print("Checking "+path)
+    img = face_recognition.load_image_file(path)
+    try:
+        temp = face_recognition.face_encodings(img,num_jitters=num_jitters,model="large")[0]
+        return True
+    except IndexError:
+        return False
+
+def test_dir():
+    # all = get_all()
+    # id = int(all[len(all)-1][0])
+    tested = 0
+    found = 0
+    with open("test.json", "a") as myfile:
+        should = len(os.listdir('test'))
+        myfile.write("[\n")
+        for dir in os.listdir('test'):
+            tested = tested + 1
+            path = "test/"+dir
+            # print("Checking "+path)
+            temp = try_find(path,1)
+            if temp:
+                print("[{0} / {1} | {2}%] OK {3}".format(tested,should,round(tested/should*100,2),path))
+                myfile.write("{\"path\":\""+path+"\",\"success\":true},\n")
+                found = found + 1 
+            else:
+                myfile.write("{\"path\":\""+path+"\",\"success\":false},\n")
+                print("[{0} / {1} | {2}%] FAILED (1/2) {3}".format(tested,should,round(tested/should*100,2),path))
+                # temp2 = try_find(path,100)
+                # if temp2:
+                #     print("[{0} / {1} | {2}%] OK {3}".format(tested,should,round(tested/should*100,2),path))
+                #     found = found + 1 
+                # else:
+                #     print("[{0} / {1} | {2}%] FAILED (2/2) {3}".format(tested,should,round(tested/should*100,2),path))
+        
+        myfile.write("]")
+        print("Found {0} out of {1} images".format(found,tested))
 
 @click.command()
 @click.option('--all',      help='Determines if i should print all known faces.',                             type=bool,  prompt=False, required=False,is_flag=True)
@@ -124,7 +162,8 @@ def read_dir_and_compare():
 @click.option('--load',     help='temp',                                                                      type=bool,  prompt=False, required=False,is_flag=True)
 @click.option('--clear',    help='Clears the database',                                                       type=bool,  prompt=False, required=False,is_flag=True)
 @click.option('--compare',  help='Compares batch entries',                                                    type=bool,  prompt=False, required=False,is_flag=True)
-def hello(all,find,insert,name,load,clear,compare):
+@click.option('--test',     help='Test images from test folder',                                                    type=bool,  prompt=False, required=False,is_flag=True)
+def hello(all,find,insert,name,load,clear,compare,test):
     if(compare):
         print("Comparing...")
         read_dir_and_compare()
@@ -143,6 +182,9 @@ def hello(all,find,insert,name,load,clear,compare):
     elif(insert and name):
         print("Inserting "+name)
         save_image(len(get_all())+2,insert,name)
+    elif(test):
+        print("testing")
+        test_dir()
 
 if __name__ == '__main__':
     hello()

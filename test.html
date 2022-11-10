@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image {
+            float: left;
+            margin: 5px;
+        }
+
+        .image img {
+            width: 200px;
+            max-height: 200px;
+        }
+
+        .image.success {
+            border: 5px solid green;
+        }
+
+        .image.fail {
+            border: 5px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main"></div>
+    <script>
+        const runImages = (img) => {
+            let html = []
+            for (let i = 0; i < img.length; i++) {
+                html.push(`<div class="image ${img[i].success ? "success" : "fail"}"><img src="${img[i].path}" alt="" /></div>`)
+            }
+            document.getElementById("main").innerHTML = html.join("")
+        }
+        fetch("test.json").then(e => e.json()).then(data => runImages(data.filter(e => !e.success)))
+    </script>
+</body>
+
+</html>
