@@ -31,13 +31,18 @@
     <div id="main"></div>
     <script>
         const runImages = (img) => {
+            const img_fail = img.filter(e => !e.success)
+            const img_succ = img.filter(e => e.success)
             let html = []
-            for (let i = 0; i < img.length; i++) {
-                html.push(`<div class="image ${img[i].success ? "success" : "fail"}"><img src="${img[i].path}" alt="" /></div>`)
+            for (let i = 0; i < img_fail.length; i++) {
+                html.push(`<div class="image ${img_fail[i].success ? "success" : "fail"}"><img src="${img_fail[i].path}" alt="" /></div>`)
+            }
+            for (let i = 0; i < img_succ.length; i++) {
+                html.push(`<div class="image ${img_succ[i].success ? "success" : "fail"}"><img src="${img_succ[i].path}" alt="" /></div>`)
             }
             document.getElementById("main").innerHTML = html.join("")
         }
-        fetch("test.json").then(e => e.json()).then(data => runImages(data.filter(e => !e.success)))
+        fetch("test.json").then(e => e.json()).then(data => runImages(data))
     </script>
 </body>
 
