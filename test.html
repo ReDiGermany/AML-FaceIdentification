@@ -12,6 +12,10 @@
             margin: 5px;
         }
 
+        .image:not(.found) {
+            opacity: .5
+        }
+
         .image img {
             width: 200px;
             max-height: 200px;
@@ -41,6 +45,17 @@
                 html.push(`<div class="image ${img_succ[i].success ? "success" : "fail"}"><img src="${img_succ[i].path}" alt="" /></div>`)
             }
             document.getElementById("main").innerHTML = html.join("")
+            setTimeout(() => {
+                const div = document.querySelectorAll("#main > div")
+                for (let i = 0; i < div.length; i++) {
+                    div[i].classList.toggle("found")
+                    div[i].addEventListener("click", (e) => {
+                        e.preventDefault()
+                        console.log(e.target)
+                        e.target.parentElement.classList.toggle("found")
+                    })
+                }
+            }, 1000)
         }
         fetch("test.json").then(e => e.json()).then(data => runImages(data))
     </script>
