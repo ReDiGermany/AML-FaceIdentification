@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        img {
+            max-width: 49vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content"></div>
+    <script>
+        fetch("result.json").then(e => e.json()).then(e => {
+            const html = e.map(a => `<div class="row">
+                    <img src="${a.match ? a.ret : a.path}" alt="" title="${a.path}" />
+                    <img src="${a.ret}" alt="" title="${a.ret}" />
+                </div>`)
+            document.getElementById("content").innerHTML = html.join("")
+        })
+    </script>
+</body>
+
+</html>

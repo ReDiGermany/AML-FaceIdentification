@@ -4,6 +4,7 @@ import json
 import click
 import glob, os
 import pathlib
+import json
 
 con = sl.connect('my-test.db')
 with con:
@@ -34,12 +35,12 @@ def get_all():
 def read_all():
     data = get_all()
     for row in data:
-        print(row)
+        print(row[1])
 
 def save_image(id,url,name):
     img = face_recognition.load_image_file(url)
     try:
-        img_face_encoding = face_recognition.face_encodings(img)[0]
+        img_face_encoding = face_recognition.face_encodings(img,model="large")[0]
         insert_data(id,name,str(img_face_encoding.tolist()))
     except IndexError:
         print("I wasn't able to locate any faces in at least one of the images. Check the image files. Aborting... @save_image@"+url)
@@ -68,8 +69,8 @@ def find_image_from_source(url,data = read_all_encodings()):
     image = face_recognition.load_image_file(url)
     # print(image)
     try:
-        encoding = face_recognition.face_encodings(image)[0]
-        results = face_recognition.compare_faces(data[0], encoding)
+        encoding = face_recognition.face_encodings(image,model="large")[0]
+        results = face_recognition.compare_faces(data[0], encoding,tolerance=0.45)
         for (idx,item) in enumerate(results):
             if(item):
                 return data[1][idx]
@@ -84,14 +85,14 @@ def delete_all():
 
 def read_dir():
     all = get_all()
-    id = int(all[len(all)-1][0])
+    id = int(all[len(all)-1][0]) if len(all) > 0 else 0
     for dir in os.listdir('images'):
         subdir = os.listdir('images/'+dir)[0]
         path = "images/"+dir+"/"+subdir
         # print("Checking "+path)
         img = face_recognition.load_image_file(path)
         try:
-            temp = face_recognition.face_encodings(img)[0]
+            temp = face_recognition.face_encodings(img,model="large")[0]
             print("OK "+path)
             id = id + 1
             save_image(id,path,dir)
@@ -102,18 +103,33 @@ def read_dir_and_compare():
     data = read_all_encodings()
     errors = 0
     total = 0
+    obj = []
     # print(data)
     for dir in os.listdir('images'):
         for subdir in os.listdir('images/'+dir):
             path = "images/"+dir+"/"+subdir
             ret = find_image_from_source(path,data)
             total = total + 1
+            dcc = {
+                "path":path,
+                "ret":"images/"+ret+"/"+os.listdir("images/"+ret)[0] if ret != "not found!" else "",
+                "matched":ret == dir
+            }
+            obj.append(dcc)
+            # obj[path] = ret
             if ret != dir:
                 print("[ERROR] "+path+" (should) does not match to (is) "+ret)
                 errors = errors + 1
             else:
                 print("[OK] "+path+" matched "+ret)
-    print("Finished with "+str(errors)+" errors out of "+str(total)+" entries ("+str(total/errors)+"%).")
+    if errors > 0:
+        print("Finished with "+str(errors)+" errors out of "+str(total)+" entries ("+str(total/errors)+"%).")
+    else:
+        print("Finished with "+str(errors)+" errors.")
+    y = json.dumps(obj,indent=4)
+    f = open("result.json", "w+")
+    f.write(y)
+    f.close()
 
 def try_find(path,num_jitters):
     # print("Checking "+path)

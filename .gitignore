@@ -2,4 +2,6 @@ raw/
 test/
 .conda/
 _test/
+FDDB-folds/
 my-test.db
+_*
