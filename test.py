@@ -79,6 +79,20 @@ def find_image_from_source(url,data = read_all_encodings()):
     except IndexError:
         return "I wasn't able to locate any faces in at least one of the images. Check the image files. Aborting... @"+url
 
+def find_image_from_base64(url,data = read_all_encodings()):
+    image = face_recognition.load_image_base64(url)
+    # print(image)
+    try:
+        encoding = face_recognition.face_encodings(image,model="large")[0]
+        results = face_recognition.compare_faces(data[0], encoding,tolerance=0.45)
+        for (idx,item) in enumerate(results):
+            if(item):
+                return data[1][idx]
+        if(True not in results):
+            return "not found!"
+    except IndexError:
+        return "I wasn't able to locate any faces in at least one of the images. Check the image files. Aborting... @"+url
+
 def delete_all():
     with con:
         data = con.execute("TRUNCATE TABLE USER")
