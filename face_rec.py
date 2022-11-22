@@ -1,4 +1,3 @@
-import sqlite3 as sl
 import face_recognition
 
 def find_image_from_base64(b64image, data):
