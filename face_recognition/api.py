@@ -5,6 +5,7 @@ import dlib
 import base64
 import numpy as np
 from PIL import ImageFile
+from io import BytesIO
 
 try:
     import face_recognition_models
@@ -89,11 +90,10 @@ def load_image_file(file, mode='RGB'):
         im = im.convert(mode)
     return np.array(im)
 
-# https://stackoverflow.com/a/6485943
-def load_image_base64(file):
-    s = base64.b64encode(file)
-    r = base64.decodebytes(s)
-    return np.frombuffer(r, dtype=np.float64)
+# https://stackoverflow.com/a/26079673/14880332
+def load_image_base64(base64_str):
+    im = PIL.Image.open(BytesIO(base64.b64decode(base64_str)))
+    return np.array(im)
 
 
 def _raw_face_locations(img, number_of_times_to_upsample=1, model="hog"):
