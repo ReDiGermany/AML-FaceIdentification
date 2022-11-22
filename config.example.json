@@ -1,0 +1,9 @@
+{
+  "kafka": {
+    "in_topic": "intopic",
+    "out_topic": "outtopic",
+    "ip": "localhost",
+    "port": "9092",
+    "group_id": "group"
+  }
+}
