@@ -2,6 +2,7 @@
 
 import PIL.Image
 import dlib
+import base64
 import numpy as np
 from PIL import ImageFile
 
@@ -87,6 +88,12 @@ def load_image_file(file, mode='RGB'):
     if mode:
         im = im.convert(mode)
     return np.array(im)
+
+# https://stackoverflow.com/a/6485943
+def load_image_base64(file):
+    s = base64.b64encode(file)
+    r = base64.decodebytes(s)
+    return np.frombuffer(r, dtype=np.float64)
 
 
 def _raw_face_locations(img, number_of_times_to_upsample=1, model="hog"):
