@@ -2,27 +2,33 @@ import base64
 import json
 import os.path
 
-import numpy
-import numpy as np
-
 from confluent_kafka import Producer
 from confluent_kafka import Consumer
 
 import face_rec
 
 
+class PersonData:
+    def __init__(self, pId, croppedPicture, recognitionId, emotions):
+        self.pId = pId
+        self.croppedPicture = croppedPicture
+        self.recognitionId = recognitionId
+        self.emotions = emotions
+
+
 class IdentificationRequest:
-    def __init__(self, message_id, name, image):
-        self.id = message_id
-        self.name = name
-        self.image = image
+    def __init__(self, id, sourcePicture, persons):
+        self.id = id
+        self.sourcePicture = sourcePicture
+        self.persons = persons
 
 
 class IdentificationResult:
-    def __init__(self, message_id, name, vector):
-        self.id = message_id
-        self.name = name
+    def __init__(self, id, image, vector, recognitionId):
+        self.id = id
+        self.image = image
         self.vector = vector
+        self.recognitionId = recognitionId
 
 
 BASE_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -32,6 +38,7 @@ with open(BASE_PATH + '/config.json') as json_config_file:
 kafka_config = config['kafka']
 
 in_topic = kafka_config['in_topic']
+next_topic = kafka_config['next_topic']
 out_topic = kafka_config['out_topic']
 storage_topic = kafka_config['storage_topic']
 
@@ -52,15 +59,9 @@ producer = Producer({'bootstrap.servers': kafka_connection_string})
 cache = {}
 
 
-def test_callback(message):
-    #print('Received message: {}'.format(message))
-    return message
-
-
 def handle_send_result(error, message):
     if error is not None:
-        print('Message delivery failed - trying to resend')
-        # send(message)
+        print('Message delivery failed')
 
 
 def send(message, topic):
@@ -69,9 +70,9 @@ def send(message, topic):
     producer.flush()
 
 
-def store(name, landmarks):
+def store(recognitionId, landmarks):
     message = {
-        'name': name,
+        'id': recognitionId,
         'landmarks': landmarks
     }
 
@@ -80,7 +81,7 @@ def store(name, landmarks):
     send(json_object, storage_topic)
 
 
-def run(callback):
+def run():
     consumer.subscribe([in_topic])
     print('Started')
     while True:
@@ -95,29 +96,23 @@ def run(callback):
         decoded_message = message.value().decode('utf-8')
 
         data = json.loads(decoded_message)
-        incoming_data = IdentificationRequest(data['message_id'], data['name'], data['image'])
+        incoming_data = IdentificationRequest(data['id'], data['sourcePicture'], data['persons'])
 
-        print(incoming_data)
+        for person in incoming_data.persons:
+            image_bytes = base64.b64decode(person['croppedPicture'])
+            found, recognition_id, landmarks = face_rec.find_image_from_base64(person['croppedPicture'], cache)
 
-        image_bytes = base64.b64decode(incoming_data.image)
+            if recognition_id in cache:
+                print("User already in cache - identified as {}".format(recognition_id))
+                if not found:
+                    print("User already in cache - no match")
+            else:
+                cache[person['recognitionId']] = landmarks
+                print("User, {} added to cache".format(person['recognitionId']))
 
-        print(cache)
-
-        found, name, landmarks = face_rec.find_image_from_base64(incoming_data.image, cache)
-
-        if incoming_data.name in cache:
-            print("User already in cache - trying to identify")
-            if not found:
-                print("User already in cache - no match")
-
-        else:
-            cache[incoming_data.name] = landmarks
-
-            print("User, {} added to cache".format(incoming_data.name))
-
-        send(callback(decoded_message), out_topic)
+        send(decoded_message, next_topic)
 
     consumer.close()
 
 
-run(test_callback)
+run()

@@ -28,9 +28,23 @@ with open('images/charlene_von_monaco/charlene_von_monaco.jpeg', 'rb') as img:
 message_uuid = uuid.uuid4().__str__()
 
 message = {
-    'message_id': message_uuid,
-    'name': 'Charlotte Würdig',
-    'image': image.decode('utf-8')
+    'id': message_uuid,
+    'sourcePicture': image.decode('utf-8'),
+    'persons': [
+        {
+            'pId': uuid.uuid4().__str__(),
+            'croppedPicture': image.decode('utf-8'),
+            'recognitionId': uuid.uuid4().__str__(),
+            'emotions': []
+        },
+        {
+            'pId': uuid.uuid4().__str__(),
+            'croppedPicture': image.decode('utf-8'),
+            'recognitionId': uuid.uuid4().__str__(),
+            'emotions': []
+        }
+
+    ]
 }
 
 print(message_uuid)
