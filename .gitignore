@@ -5,3 +5,4 @@ _test/
 FDDB-folds/
 my-test.db
 _*
+config.json

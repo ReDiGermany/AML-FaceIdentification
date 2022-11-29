@@ -1,10 +1,10 @@
 {
-  "kafka": {
-    "in_topic": "intopic",
-    "out_topic": "outtopic",
-    "storage_topic": "storagetopic",
-    "ip": "localhost",
+  "kafka":{
+    "in_topic": "toIdentifications",
+    "out_topic": "toEmotions",
+    "storage_topic": "personStorage",
+    "ip": "",
     "port": "9092",
-    "group_id": "group"
+    "group_id": "4"
   }
 }
