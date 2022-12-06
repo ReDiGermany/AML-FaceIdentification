@@ -15,26 +15,26 @@ import face_rec
 
 
 class PersonData:
-    def __init__(self, pId, croppedPicture, recognitionId, emotions, name, vector):
-        self.pId = pId
-        self.croppedPicture = croppedPicture
-        self.recognitionId = recognitionId
+    def __init__(self, p_id, cropped_picture, recognition_id, emotions, name, vector):
+        self.pId = p_id
+        self.croppedPicture = cropped_picture
+        self.recognitionId = recognition_id
         self.emotions = emotions
         self.name = name
         self.vector = vector
 
 
 class IdentificationRequest:
-    def __init__(self, id, sourcePicture, persons):
-        self.id = id
-        self.sourcePicture = sourcePicture
+    def __init__(self, message_id, source_picture, persons):
+        self.id = message_id
+        self.sourcePicture = source_picture
         self.persons = persons
 
 
 class IdentificationResult:
-    def __init__(self, id, sourcePicture, persons):
-        self.id = id
-        self.sourcePicture = sourcePicture
+    def __init__(self, message_id, source_picture, persons):
+        self.id = message_id
+        self.sourcePicture = source_picture
         self.persons = persons
 
 
@@ -132,7 +132,7 @@ def run():
                     log_error('Message format incorrect - skipping message')
                     continue
 
-                image_bytes = base64.b64decode(person['croppedPicture'])
+                # image_bytes = base64.b64decode(person['croppedPicture'])
                 found, recognition_id, landmarks = face_rec.find_image_from_base64(person['croppedPicture'], cache)
 
                 if recognition_id in cache:
@@ -151,7 +151,7 @@ def run():
                 person_response,
             )
 
-            #print(jsonpickle.encode(response, unpicklable=False))
+            # print(jsonpickle.encode(response, unpicklable=False))
 
             send(jsonpickle.encode(response, unpicklable=False), next_topic)
     except KeyboardInterrupt:
