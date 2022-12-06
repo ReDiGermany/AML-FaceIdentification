@@ -15,13 +15,13 @@ import face_rec
 
 
 class PersonData:
-    def __init__(self, p_id, cropped_picture, recognition_id, emotions, name, vector):
+    def __init__(self, p_id, cropped_picture):
         self.pId = p_id
         self.croppedPicture = cropped_picture
-        self.recognitionId = recognition_id
-        self.emotions = emotions
-        self.name = name
-        self.vector = vector
+        self.recognitionId = ''
+        self.emotions = ''
+        self.name = ''
+        self.vector = ''
 
 
 class IdentificationRequest:
@@ -60,7 +60,7 @@ kafka_connection_string = kafka_ip + ':' + kafka_port
 consumer = Consumer({
     'bootstrap.servers': kafka_connection_string,
     'group.id': kafka_group_id,
-    'auto.offset.reset': 'earliest'
+    'auto.offset.reset': 'latest'
 })
 producer = Producer({
     'bootstrap.servers': kafka_connection_string,
@@ -101,6 +101,7 @@ def run():
             message = consumer.poll(1.0)
 
             if message is None:
+                log_info('no data in incoming topic')
                 continue
             if message.error():
                 log_error('Consumer error: {}'.format(message.error()))
@@ -122,11 +123,11 @@ def run():
                 try:
                     p = PersonData(
                         person['pId'],
-                        person['croppedPicture'],
-                        person['recognitionId'],
-                        person['emotions'],
-                        person['name'],
-                        person['vector']
+                        person['croppedPicture']
+                        #person['recognitionId'],
+                        #person['emotions'],
+                        #person['name'],
+                        #person['vector']
                     )
                 except KeyError:
                     log_error('Message format incorrect - skipping message')
@@ -142,7 +143,7 @@ def run():
                     cache[person['pId']] = landmarks
                     log_info('Person, {} added to cache'.format(person['pId']))
                 p.vector = landmarks
-
+                
                 person_response.append(p)
 
             response = IdentificationResult(
