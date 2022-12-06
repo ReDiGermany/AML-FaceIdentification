@@ -1,19 +1,27 @@
 import base64
 import json
 import os.path
+import socket
+import string
+import random
+import jsonpickle
 
 from confluent_kafka import Producer
 from confluent_kafka import Consumer
+
+from log import log_info, log_error
 
 import face_rec
 
 
 class PersonData:
-    def __init__(self, pId, croppedPicture, recognitionId, emotions):
+    def __init__(self, pId, croppedPicture, recognitionId, emotions, name, vector):
         self.pId = pId
         self.croppedPicture = croppedPicture
         self.recognitionId = recognitionId
         self.emotions = emotions
+        self.name = name
+        self.vector = vector
 
 
 class IdentificationRequest:
@@ -24,11 +32,10 @@ class IdentificationRequest:
 
 
 class IdentificationResult:
-    def __init__(self, id, image, vector, recognitionId):
+    def __init__(self, id, sourcePicture, persons):
         self.id = id
-        self.image = image
-        self.vector = vector
-        self.recognitionId = recognitionId
+        self.sourcePicture = sourcePicture
+        self.persons = persons
 
 
 BASE_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -45,7 +52,8 @@ storage_topic = kafka_config['storage_topic']
 kafka_ip = kafka_config['ip']
 kafka_port = kafka_config['port']
 
-kafka_group_id = kafka_config['group_id']
+kafka_group_id_postfix = '-' + ''.join(random.choice(string.ascii_lowercase) for i in range(8))
+kafka_group_id = kafka_config['group_id'] + kafka_group_id_postfix
 
 kafka_connection_string = kafka_ip + ':' + kafka_port
 
@@ -54,14 +62,19 @@ consumer = Consumer({
     'group.id': kafka_group_id,
     'auto.offset.reset': 'earliest'
 })
-producer = Producer({'bootstrap.servers': kafka_connection_string})
+producer = Producer({
+    'bootstrap.servers': kafka_connection_string,
+    'client.id': socket.gethostname()
+})
 
 cache = {}
 
 
 def handle_send_result(error, message):
     if error is not None:
-        print('Message delivery failed')
+        log_error('Message delivery failed')
+    else:
+        log_info('Message delivered')
 
 
 def send(message, topic):
@@ -70,49 +83,83 @@ def send(message, topic):
     producer.flush()
 
 
-def store(recognitionId, landmarks):
+def store(recognition_id, landmarks):
     message = {
-        'id': recognitionId,
+        'id': recognition_id,
         'landmarks': landmarks
     }
 
     json_object = json.dumps(message)
-    print('Trying to store: {}'.format(json_object))
-    send(json_object, storage_topic)
+    log_info('Trying to store: {}'.format(json_object))
 
 
 def run():
     consumer.subscribe([in_topic])
-    print('Started')
-    while True:
-        message = consumer.poll(1.0)
+    log_info('Started')
+    try:
+        while True:
+            message = consumer.poll(1.0)
 
-        if message is None:
-            continue
-        if message.error():
-            print('Consumer error: {}'.format(message.error()))
-            continue
+            if message is None:
+                continue
+            if message.error():
+                log_error('Consumer error: {}'.format(message.error()))
+                continue
 
-        decoded_message = message.value().decode('utf-8')
+            decoded_message = message.value().decode('utf-8')
 
-        data = json.loads(decoded_message)
-        incoming_data = IdentificationRequest(data['id'], data['sourcePicture'], data['persons'])
+            data = jsonpickle.decode(decoded_message)
 
-        for person in incoming_data.persons:
-            image_bytes = base64.b64decode(person['croppedPicture'])
-            found, recognition_id, landmarks = face_rec.find_image_from_base64(person['croppedPicture'], cache)
+            try:
+                incoming_data = IdentificationRequest(data['id'], data['sourcePicture'], data['persons'])
+            except KeyError:
+                log_error('Message format incorrect - skipping message')
+                continue
 
-            if recognition_id in cache:
-                print("User already in cache - identified as {}".format(recognition_id))
-                if not found:
-                    print("User already in cache - no match")
-            else:
-                cache[person['recognitionId']] = landmarks
-                print("User, {} added to cache".format(person['recognitionId']))
+            person_response = []
 
-        send(decoded_message, next_topic)
+            for person in incoming_data.persons:
+                try:
+                    p = PersonData(
+                        person['pId'],
+                        person['croppedPicture'],
+                        person['recognitionId'],
+                        person['emotions'],
+                        person['name'],
+                        person['vector']
+                    )
+                except KeyError:
+                    log_error('Message format incorrect - skipping message')
+                    continue
+
+                image_bytes = base64.b64decode(person['croppedPicture'])
+                found, recognition_id, landmarks = face_rec.find_image_from_base64(person['croppedPicture'], cache)
+
+                if recognition_id in cache:
+                    log_info('Person already in cache - identified as {}'.format(recognition_id))
+                    p.recognitionId = recognition_id
+                else:
+                    cache[person['pId']] = landmarks
+                    log_info('Person, {} added to cache'.format(person['pId']))
+                p.vector = landmarks
+
+                person_response.append(p)
+
+            response = IdentificationResult(
+                incoming_data.id,
+                incoming_data.sourcePicture,
+                person_response,
+            )
+
+            #print(jsonpickle.encode(response, unpicklable=False))
+
+            send(jsonpickle.encode(response, unpicklable=False), next_topic)
+    except KeyboardInterrupt:
+        log_info('Interrupt received - shutting down')
+        pass
 
     consumer.close()
+    log_info('Shutdown complete')
 
 
 run()

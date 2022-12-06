@@ -34,16 +34,19 @@ message = {
         {
             'pId': uuid.uuid4().__str__(),
             'croppedPicture': image.decode('utf-8'),
-            'recognitionId': uuid.uuid4().__str__(),
-            'emotions': []
+            'recognitionId': '',
+            'emotions': [],
+            'name': '',
+            'vector': ''
         },
-        {
+{
             'pId': uuid.uuid4().__str__(),
             'croppedPicture': image.decode('utf-8'),
-            'recognitionId': uuid.uuid4().__str__(),
-            'emotions': []
+            'recognitionId': '',
+            'emotions': [],
+            'name': '',
+            'vector': ''
         }
-
     ]
 }
 
