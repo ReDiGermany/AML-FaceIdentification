@@ -1,0 +1,11 @@
+{
+  "kafka": {
+    "in_topic": "toIdentifications",
+    "next_topic": "toEmotions",
+    "out_topic": "toUI",
+    "storage_topic": "personStorage",
+    "ip": "130.61.179.19",
+    "port": "9091",
+    "group_id": "identification"
+  }
+}
