@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 
+
 def log(prefix, text):
     message = '[' + str(datetime.now()) + '] ' + prefix + ': ' + str(text)
     with open('log.txt', 'a') as log_file:

@@ -52,8 +52,8 @@ storage_topic = kafka_config['storage_topic']
 kafka_ip = kafka_config['ip']
 kafka_port = kafka_config['port']
 
-kafka_group_id_postfix = '-' + ''.join(random.choice(string.ascii_lowercase) for i in range(8))
-kafka_group_id = kafka_config['group_id'] + kafka_group_id_postfix
+# kafka_group_id_postfix = '-' + ''.join(random.choice(string.ascii_lowercase) for i in range(8))
+kafka_group_id = kafka_config['group_id']  # + kafka_group_id_postfix
 
 kafka_connection_string = kafka_ip + ':' + kafka_port
 
