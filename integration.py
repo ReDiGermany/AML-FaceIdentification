@@ -60,7 +60,7 @@ kafka_connection_string = kafka_ip + ':' + kafka_port
 consumer = Consumer({
     'bootstrap.servers': kafka_connection_string,
     'group.id': kafka_group_id,
-    'auto.offset.reset': 'latest'
+    'auto.offset.reset': 'earliest'
 })
 producer = Producer({
     'bootstrap.servers': kafka_connection_string,
@@ -68,6 +68,10 @@ producer = Producer({
 })
 
 cache = {}
+
+
+def face_not_found_response():
+    log_info('No face found')
 
 
 def handle_send_result(error, message):
@@ -124,10 +128,10 @@ def run():
                     p = PersonData(
                         person['pId'],
                         person['croppedPicture']
-                        #person['recognitionId'],
-                        #person['emotions'],
-                        #person['name'],
-                        #person['vector']
+                        # person['recognitionId'],
+                        # person['emotions'],
+                        # person['name'],
+                        # person['vector']
                     )
                 except KeyError:
                     log_error('Message format incorrect - skipping message')
@@ -140,10 +144,15 @@ def run():
                     log_info('Person already in cache - identified as {}'.format(recognition_id))
                     p.recognitionId = recognition_id
                 else:
-                    cache[person['pId']] = landmarks
-                    log_info('Person, {} added to cache'.format(person['pId']))
+                    if landmarks:
+                        cache[person['pId']] = landmarks
+                        log_info('Person, {} added to cache'.format(person['pId']))
+                    else:
+                        face_not_found_response()
+                        continue
+
                 p.vector = landmarks
-                
+
                 person_response.append(p)
 
             response = IdentificationResult(
