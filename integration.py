@@ -5,6 +5,7 @@ import socket
 import string
 import random
 import jsonpickle
+import time
 
 from confluent_kafka import Producer
 from confluent_kafka import Consumer
@@ -66,12 +67,13 @@ producer = Producer({
     'bootstrap.servers': kafka_connection_string,
     'client.id': socket.gethostname()
 })
+personStorageConsumer = Consumer({
+    'bootstrap.servers': kafka_connection_string,
+    'group.id': "{}-{}".format(kafka_group_id,time.time()),
+    'auto.offset.reset': 'earliest'
+})
 
 cache = {}
-
-
-def face_not_found_response():
-    log_info('No face found')
 
 
 def handle_send_result(error, message):
@@ -102,10 +104,24 @@ def run():
     log_info('Started')
     try:
         while True:
-            message = consumer.poll(1.0)
+            messagePersonStorage = personStorageConsumer.poll(1.0)
+            if messagePersonStorage is not None:
+                if not messagePersonStorage.error():
+                    decoded_message_person_storage = messagePersonStorage.value().decode('utf-8')
+                    data_person_storage = json.loads(decoded_message_person_storage)
+                    #if not data_person_storage["id"] in cache:
+                    log_info("Added {} to local person Storage".format(data_person_storage["name"]))
+                    if data_person_storage["id"] != "":
+                        data_person_storage["vector"] = json.loads(data_person_storage["vector"])
+                        cache[data_person_storage["id"]] = {
+                            "id": data_person_storage["id"],
+                            "name": data_person_storage["name"],
+                            "vector": data_person_storage["vector"]
+                        }
 
+            message = consumer.poll(1.0)
             if message is None:
-                log_info('no data in incoming topic')
+                # log_info('no data in incoming topic')
                 continue
             if message.error():
                 log_error('Consumer error: {}'.format(message.error()))
@@ -139,17 +155,15 @@ def run():
 
                 # image_bytes = base64.b64decode(person['croppedPicture'])
                 found, recognition_id, landmarks = face_rec.find_image_from_base64(person['croppedPicture'], cache)
-
                 if recognition_id in cache:
                     log_info('Person already in cache - identified as {}'.format(recognition_id))
                     p.recognitionId = recognition_id
                 else:
                     if landmarks:
-                        cache[person['pId']] = landmarks
+                        # cache[person['pId']] = landmarks
                         log_info('Person, {} added to cache'.format(person['pId']))
                     else:
-                        face_not_found_response()
-                        continue
+                        log_info('No face found')
 
                 p.vector = landmarks
 
@@ -169,7 +183,49 @@ def run():
         pass
 
     consumer.close()
+    personStorageConsumer.close()
     log_info('Shutdown complete')
 
+log_info('Started')
+noneCounter = 0
+personStorageConsumer.subscribe(["personStorage"])
+try:
+    while noneCounter < 3:
+        message = personStorageConsumer.poll(1.0)
+
+        if message is None:
+            noneCounter = noneCounter + 1
+            log_info('no data in incoming topic ({})'.format(noneCounter))
+            if noneCounter >= 3:
+                log_info("Exiting personStorage cache due to 3x no data")
+            continue
+        if message.error():
+            log_error('Consumer error: {}'.format(message.error()))
+            continue
+
+        noneCounter = 0
+        
+        decoded_message = message.value().decode('utf-8')
+        data = json.loads(decoded_message)
+        #if not data["id"] in cache:
+        log_info("Added {} to local person Storage".format(data["name"]))
+        if data["id"] == "":
+            continue
+
+        data["vector"] = json.loads(data["vector"])
+
+        cache[data["id"]] = {
+            "id": data["id"],
+            "name": data["name"],
+            "vector": data["vector"]
+        }
+
+        #print(decoded_message)
+        # person_array = [k["vector"] for k in cache.values()]
+        #print(cache)
+        #print(cache.values())
+except KeyboardInterrupt:
+    log_info('Interrupt received - shutting down')
+    exit()
 
 run()
