@@ -61,6 +61,8 @@ kafka_connection_string = kafka_ip + ':' + kafka_port
 consumer = Consumer({
     'bootstrap.servers': kafka_connection_string,
     'group.id': kafka_group_id,
+    'topic.metadata.refresh.interval.ms': 10*1000,
+    'socket.keepalive.enable': True,
     'auto.offset.reset': 'earliest'
 })
 producer = Producer({
@@ -70,6 +72,8 @@ producer = Producer({
 personStorageConsumer = Consumer({
     'bootstrap.servers': kafka_connection_string,
     'group.id': "{}-{}".format(kafka_group_id,time.time()),
+    'topic.metadata.refresh.interval.ms': 10*1000,
+    'socket.keepalive.enable': True,
     'auto.offset.reset': 'earliest'
 })
 
@@ -204,7 +208,7 @@ try:
             continue
 
         noneCounter = 0
-        
+
         decoded_message = message.value().decode('utf-8')
         data = json.loads(decoded_message)
         #if not data["id"] in cache:
