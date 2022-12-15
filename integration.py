@@ -161,6 +161,7 @@ def run():
                 found, recognition_id, landmarks = face_rec.find_image_from_base64(person['croppedPicture'], cache)
                 if recognition_id in cache:
                     log_info('Person already in cache - identified as {}'.format(recognition_id))
+                    p.name = cache[recognition_id]['name']
                     p.recognitionId = recognition_id
                 else:
                     if landmarks:
@@ -210,19 +211,23 @@ try:
         noneCounter = 0
 
         decoded_message = message.value().decode('utf-8')
-        data = json.loads(decoded_message)
-        #if not data["id"] in cache:
-        log_info("Added {} to local person Storage".format(data["name"]))
-        if data["id"] == "":
-            continue
+        #print(decoded_message)
+        try:
+            data = json.loads(decoded_message)
+            #if not data["id"] in cache:
+            log_info("Added {} to local person Storage".format(data["name"]))
+            if data["id"] == "":
+                continue
 
-        data["vector"] = json.loads(data["vector"])
+            data["vector"] = json.loads(data["vector"])
 
-        cache[data["id"]] = {
-            "id": data["id"],
-            "name": data["name"],
-            "vector": data["vector"]
-        }
+            cache[data["id"]] = {
+                "id": data["id"],
+                "name": data["name"],
+                "vector": data["vector"]
+            }
+        except:
+            print("Error decoding message from kafka: {}".format(decoded_message))
 
         #print(decoded_message)
         # person_array = [k["vector"] for k in cache.values()]
