@@ -1,0 +1,8 @@
+RES=$(ps aux | grep "python integration" | wc -l)
+
+if [ $RES -gt 1 ] # propper process and the check will be counted!
+then
+        ./stop
+fi
+./start
+#cat log.txt

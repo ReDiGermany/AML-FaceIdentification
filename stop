@@ -1,0 +1,12 @@
+#!/bin/bash
+RES=$(ps aux | grep "python integration" | wc -l)
+
+echo "Stopping..."
+
+if [ $RES -gt 1 ] # propper process and the check will be counted!
+then
+        screen -S screenname -X quit
+        echo "Stopped"
+else
+        echo "Unable to stop! Not running."
+fi

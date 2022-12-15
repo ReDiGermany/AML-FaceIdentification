@@ -1,0 +1,16 @@
+#!/bin/bash
+RES=$(ps aux | grep "python integration" | wc -l)
+DATE=$(date +"%d.%m.%y-%H:%M")
+
+echo "Starting..."
+
+if [ $RES -lt 2 ] # propper process and the check will be counted!
+then
+        mv log.txt logs/$DATE.txt
+        touch log.txt
+        screen -S "screenname" -U -m -d python integration.py
+        echo "Started!"
+        ./console
+else
+        echo "Unable to start. Already running!"
+fi

@@ -1,0 +1,29 @@
+#!/bin/bash
+RES=$(ps aux | grep "python integration" | wc -l)
+
+# https://stackoverflow.com/a/9229692/14880332
+CPU=$(top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1"%"}')
+
+RAM_TOTAL=$(free -m -t | grep "Total: "  | tr -s ' ' | cut -d ' ' -f 2)
+RAM_USED=$(free -m -t | grep "Total: "  | tr -s ' ' | cut -d ' ' -f 3)
+
+#RAM_LOAD=$(($(($RAM_USED)) / $(($RAM_TOTAL)) * 1000) | bc -l)
+
+RAM_LOAD=$(printf "%.2f" $(echo $RAM_USED" / "$RAM_TOTAL" * 100" | bc -l))
+
+#echo $RAM_TOTAL
+#echo $RAM_USED
+
+if [ $RES -gt 1 ] # propper process and the check will be counted!
+then
+        echo "Process running!"
+        echo ""
+        tail log.txt -n 3
+        echo ""
+        echo "CPU Load: "$CPU
+        echo "RAM Load: "$RAM_LOAD"%"
+else
+        echo "Process stopped!"
+fi
+
+#cat log.txt
